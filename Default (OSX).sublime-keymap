@@ -1,19 +1,25 @@
 [
-{ "keys": ["super+,"], "command": "goto_definition" },
-{ "keys": ["ctrl+-"], "command": "jump_back" },
-{ "keys": ["ctrl+="], "command": "jump_forward" },      
-{
-    "keys": ["ctrl+2"],
-    "command": "run_macro_file",
-    "args": {
-                 "file": "Packages/User/to-2.sublime-macro"
-            }
-},
-{
-    "keys": ["ctrl+4"],
-    "command": "run_macro_file",
-    "args": {
-                "file": "Packages/User/to-4.sublime-macro"
-            }
-}
+    { "keys": ["super+,"], "command": "goto_definition" },
+    { "keys": ["ctrl+-"], "command": "jump_back" },
+    { "keys": ["ctrl+="], "command": "jump_forward" },      
+    {
+        "keys": ["ctrl+2"],
+        "command": "run_macro_file",
+        "args": {
+                     "file": "Packages/User/to-2.sublime-macro"
+                }
+    },
+    {
+        "keys": ["ctrl+4"],
+        "command": "run_macro_file",
+        "args": {
+                    "file": "Packages/User/to-4.sublime-macro"
+                }
+    },
+    {
+        "keys": ["ctrl+,"],
+        "command": "gs_doc",
+        "args": {"mode": "goto"},
+        "context": [{ "key": "selector", "operator": "equal", "operand": "source.go" }]
+    }
 ]

@@ -2,19 +2,46 @@
 	"folders":
 	[
 		{
+			"path": "/Users/Terry/wp/codes/unbound-1.5.8"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/nsd"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/github/dpdk-ans"
+		},
+		{
 			"path": "/Users/Terry/wp/codes/github/dnspod-sr"
 		},
 		{
-			"path": "/Users/Terry/wp/codes/gdns/gdns_server-3.1.3"
+			"path": "/Users/Terry/wp/codes/gdns"
 		},
 		{
-			"path": "/Users/Terry/wp/codes/bind-9.9.8-P4"
+			"path": "/Users/Terry/wp/codes/dpdk-16.04"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/bind-9.10.4-P1"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/bind"
 		},
 		{
+			"path": "/Users/Terry/wp/codes/bdns"
+		},
+		{
+			"path": "/Users/Terry/wp/codes"
+		},
+		{
+			"path": "/Users/Terry/terry/github/timer"
+		},
+		{
+			"path": "/Users/Terry/terry/github/dpdk"
+		},
+		{
 			"path": "/Users/Terry/terry/github"
+		},
+		{
+			"path": "/Users/Terry/terry/cpp"
 		},
 		{
 			"path": "/Users/Terry/gopher/src/try"
