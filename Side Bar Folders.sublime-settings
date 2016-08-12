@@ -5,7 +5,37 @@
 			"path": "/Users/Terry/wp/codes/unbound-1.5.8"
 		},
 		{
+			"path": "/Users/Terry/wp/codes/test"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/nsdnew"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/nsdconf"
+		},
+		{
 			"path": "/Users/Terry/wp/codes/nsd"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/nginx-1.10.1"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/linux_stack"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/linux-4.6.4"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/json"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/gogs/bsydns"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/github/ofp"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/github/mtcp"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/github/dpdk-ans"
@@ -14,19 +44,25 @@
 			"path": "/Users/Terry/wp/codes/github/dnspod-sr"
 		},
 		{
+			"path": "/Users/Terry/wp/codes/github"
+		},
+		{
 			"path": "/Users/Terry/wp/codes/gdns"
 		},
 		{
-			"path": "/Users/Terry/wp/codes/dpdk-16.04"
+			"path": "/Users/Terry/wp/codes/dpdk-16.07"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/dns"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/bsydns"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/bind-9.10.4-P1"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/bind"
-		},
-		{
-			"path": "/Users/Terry/wp/codes/bdns"
 		},
 		{
 			"path": "/Users/Terry/wp/codes"
@@ -38,6 +74,9 @@
 			"path": "/Users/Terry/terry/github/dpdk"
 		},
 		{
+			"path": "/Users/Terry/terry/github/cJSON"
+		},
+		{
 			"path": "/Users/Terry/terry/github"
 		},
 		{
@@ -45,6 +84,15 @@
 		},
 		{
 			"path": "/Users/Terry/gopher/src/try"
+		},
+		{
+			"path": "/Users/Terry/gopher/src/github.com/zheng-ji/goHttpDns"
+		},
+		{
+			"path": "/Users/Terry/gopher/src/github.com/Sirupsen/logrus"
+		},
+		{
+			"path": "/Users/Terry/gopher/src/github.com/bugra/kmeans"
 		},
 		{
 			"path": "/Users/Terry/gopher/src/bfcs"
