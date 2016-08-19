@@ -362,3 +362,18 @@ Gocode pkg: "net"
 Gocode pkg: "bfcs/listener"
 Gocode pkg: "try"
 Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+Gocode pkg: "try"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+Gocode pkg: "dig"
+Gocode pkg: "try"
+Gocode pkg: "dig"
+Gocode pkg: "try"
+Gocode pkg: "dig"
+Gocode pkg: "try"
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+Gocode pkg: "try"
+Gocode pkg: "."
+Gocode pkg: "try"
+Gocode pkg: "os/exec"
+Gocode pkg: "try"

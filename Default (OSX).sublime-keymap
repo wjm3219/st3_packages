@@ -1,7 +1,8 @@
 [
     { "keys": ["super+,"], "command": "goto_definition" },
     { "keys": ["ctrl+-"], "command": "jump_back" },
-    { "keys": ["ctrl+="], "command": "jump_forward" },      
+    { "keys": ["ctrl+="], "command": "jump_forward" },
+    { "keys": ["alt+forward_slash"], "command": "toggle_comment", "args": { "block": true } },   
     {
         "keys": ["ctrl+2"],
         "command": "run_macro_file",
