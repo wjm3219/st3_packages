@@ -2,6 +2,7 @@
 	"9o.hist./Users/Terry/gopher/src/try":
 	[
 		"go version",
+		"help",
 		"go run test.go"
 	],
 	"ann": "a16.07.09-1",

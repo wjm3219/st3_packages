@@ -8,10 +8,13 @@
 			"path": "/Users/Terry/wp/codes/test"
 		},
 		{
-			"path": "/Users/Terry/wp/codes/nsdnew"
+			"path": "/Users/Terry/wp/codes/shenzhen"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/nsdconf"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/nsd-4.1.11"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/nsd"
@@ -24,9 +27,6 @@
 		},
 		{
 			"path": "/Users/Terry/wp/codes/linux-4.6.4"
-		},
-		{
-			"path": "/Users/Terry/wp/codes/json"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/gogs/bsydns"
@@ -45,6 +45,9 @@
 		},
 		{
 			"path": "/Users/Terry/wp/codes/github"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/gdnsd-2.2.4"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/gdns"
@@ -71,13 +74,13 @@
 			"path": "/Users/Terry/terry/python"
 		},
 		{
-			"path": "/Users/Terry/terry/py"
-		},
-		{
 			"path": "/Users/Terry/terry/github/timer"
 		},
 		{
 			"path": "/Users/Terry/terry/github/dpdk"
+		},
+		{
+			"path": "/Users/Terry/terry/github/cmockery"
 		},
 		{
 			"path": "/Users/Terry/terry/github/cJSON"
@@ -87,6 +90,9 @@
 		},
 		{
 			"path": "/Users/Terry/terry/cpp"
+		},
+		{
+			"path": "/Users/Terry/terry"
 		},
 		{
 			"path": "/Users/Terry/gopher/src/try"
@@ -105,6 +111,9 @@
 		},
 		{
 			"path": "/Users/Terry/gopher/src"
+		},
+		{
+			"path": "/Users/Terry/gopher/go1.7/src"
 		},
 		{
 			"path": "/Users/Terry/gopher"
