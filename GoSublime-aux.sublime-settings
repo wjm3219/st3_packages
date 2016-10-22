@@ -1,4 +1,8 @@
 {
+	"9o.hist./Users/Terry/gopher/src/github.com":
+	[
+		"go run color.go"
+	],
 	"9o.hist./Users/Terry/gopher/src/try":
 	[
 		"go version",

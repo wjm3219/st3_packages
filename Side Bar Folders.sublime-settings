@@ -2,37 +2,16 @@
 	"folders":
 	[
 		{
-			"path": "/Users/Terry/wp/codes/unbound-1.5.8"
-		},
-		{
-			"path": "/Users/Terry/wp/codes/test"
-		},
-		{
 			"path": "/Users/Terry/wp/codes/shenzhen"
 		},
 		{
-			"path": "/Users/Terry/wp/codes/nsdconf"
+			"path": "/Users/Terry/wp/codes/pktgen-3.0.14"
 		},
 		{
-			"path": "/Users/Terry/wp/codes/nsd-4.1.11"
-		},
-		{
-			"path": "/Users/Terry/wp/codes/nsd"
-		},
-		{
-			"path": "/Users/Terry/wp/codes/nginx-1.10.1"
-		},
-		{
-			"path": "/Users/Terry/wp/codes/linux_stack"
-		},
-		{
-			"path": "/Users/Terry/wp/codes/linux-4.6.4"
+			"path": "/Users/Terry/wp/codes/nsd-4.1.12"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/gogs/bsydns"
-		},
-		{
-			"path": "/Users/Terry/wp/codes/github/ofp"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/github/mtcp"
@@ -41,10 +20,10 @@
 			"path": "/Users/Terry/wp/codes/github/dpdk-ans"
 		},
 		{
-			"path": "/Users/Terry/wp/codes/github/dnspod-sr"
+			"path": "/Users/Terry/wp/codes/github/dpdk-1"
 		},
 		{
-			"path": "/Users/Terry/wp/codes/github"
+			"path": "/Users/Terry/wp/codes/github/bind9"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/gdnsd-2.2.4"
@@ -56,67 +35,28 @@
 			"path": "/Users/Terry/wp/codes/dpdk-16.07"
 		},
 		{
-			"path": "/Users/Terry/wp/codes/dns"
+			"path": "/Users/Terry/wp/codes/bind9.11"
 		},
 		{
-			"path": "/Users/Terry/wp/codes/bsydns"
+			"path": "/Users/Terry/wp/codes/bind9.10"
 		},
 		{
-			"path": "/Users/Terry/wp/codes/bind-9.10.4-P1"
+			"path": "/Users/Terry/wp/codes/bind-new"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/bind-9.10.4-P3"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/bind"
 		},
 		{
-			"path": "/Users/Terry/wp/codes"
-		},
-		{
-			"path": "/Users/Terry/terry/python"
-		},
-		{
-			"path": "/Users/Terry/terry/github/timer"
-		},
-		{
-			"path": "/Users/Terry/terry/github/dpdk"
-		},
-		{
-			"path": "/Users/Terry/terry/github/cmockery"
-		},
-		{
-			"path": "/Users/Terry/terry/github/cJSON"
-		},
-		{
-			"path": "/Users/Terry/terry/github"
-		},
-		{
 			"path": "/Users/Terry/terry/cpp"
 		},
 		{
-			"path": "/Users/Terry/terry"
-		},
-		{
-			"path": "/Users/Terry/gopher/src/try"
-		},
-		{
-			"path": "/Users/Terry/gopher/src/github.com/zheng-ji/goHttpDns"
-		},
-		{
-			"path": "/Users/Terry/gopher/src/github.com/Sirupsen/logrus"
-		},
-		{
-			"path": "/Users/Terry/gopher/src/github.com/bugra/kmeans"
-		},
-		{
-			"path": "/Users/Terry/gopher/src/bfcs"
+			"path": "/Users/Terry/gopher/src/github.com/hashicorp/serf"
 		},
 		{
 			"path": "/Users/Terry/gopher/src"
-		},
-		{
-			"path": "/Users/Terry/gopher/go1.7/src"
-		},
-		{
-			"path": "/Users/Terry/gopher"
 		}
 	]
 }
