@@ -22,5 +22,6 @@
         "command": "gs_doc",
         "args": {"mode": "goto"},
         "context": [{ "key": "selector", "operator": "equal", "operand": "source.go" }]
-    }
+    },
+    { "keys": ["super+,"], "command": "godef"}
 ]
