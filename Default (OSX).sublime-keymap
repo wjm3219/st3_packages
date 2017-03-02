@@ -23,5 +23,5 @@
         "args": {"mode": "goto"},
         "context": [{ "key": "selector", "operator": "equal", "operand": "source.go" }]
     },
-    { "keys": ["super+,"], "command": "godef"}
+    { "keys": ["ctrl+,"], "command": "godef"}
 ]

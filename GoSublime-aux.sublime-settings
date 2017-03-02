@@ -1,15 +1,24 @@
 {
+	"9o.hist./Users/Terry/Downloads":
+	[
+		"go test 1.go"
+	],
+	"9o.hist./Users/Terry/gopher/src/dnscheck":
+	[
+		"go run dnscheck.go"
+	],
 	"9o.hist./Users/Terry/gopher/src/github.com":
 	[
 		"go run color.go"
 	],
 	"9o.hist./Users/Terry/gopher/src/try":
 	[
-		"go version",
 		"help",
+		"go run try.go",
+		"go version",
 		"go run test.go"
 	],
-	"ann": "a16.07.09-1",
-	"install_version": "r16.07.09-1",
-	"version": "r16.07.09-1"
+	"ann": "a17.02.16-1",
+	"install_version": "r17.02.16-1",
+	"version": "r17.02.16-1"
 }
