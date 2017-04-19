@@ -1,5 +1,6 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
+	"dc_use_folder_icon2": true,
 	"default_line_ending": "unix",
 	"font_face": "Ubuntu Mono",
 	"font_size": 17,
@@ -14,5 +15,6 @@
 	],
 	"tab_size": 4,
 	"theme": "DC_3_LW.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"vintageous_use_ctrl_keys": true
 }

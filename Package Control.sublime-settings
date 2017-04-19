@@ -5,7 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"1337 Color Scheme",
 		"All Autocomplete",
 		"Anaconda",
 		"BracketHighlighter",
@@ -16,11 +15,13 @@
 		"DocBlockr",
 		"FormatLua",
 		"Function Name Display",
+		"Git",
 		"GitGutter",
 		"Godef",
 		"GoSublime",
 		"Lua Dev",
 		"Package Control",
+		"Pretty JSON",
 		"SideBarEnhancements",
 		"SideBarFolders",
 		"SublimeAStyleFormatter",

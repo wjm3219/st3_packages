@@ -14,11 +14,11 @@
 	"9o.hist./Users/Terry/gopher/src/try":
 	[
 		"help",
-		"go run try.go",
 		"go version",
-		"go run test.go"
+		"go run test.go",
+		"go run try.go"
 	],
-	"ann": "a17.02.16-1",
-	"install_version": "r17.02.16-1",
-	"version": "r17.02.16-1"
+	"ann": "a17.03.05-1",
+	"install_version": "r17.03.05-1",
+	"version": "r17.03.05-1"
 }
