@@ -1,0 +1,13 @@
+{
+    // "date_format": "(%y/%m/%d %H:%M)",
+    "line_numbers": true,
+    "color_scheme": "Packages/PlainTasks/tasks-eighties-dark.hidden-tmTheme"
+    // other bundled schemes:
+    //   Packages/PlainTasks/tasks-dark.hidden-tmTheme
+    //   Packages/PlainTasks/tasks-eighties-colored.hidden-tmTheme
+    //   Packages/PlainTasks/tasks-eighties-dark.hidden-tmTheme
+    //   Packages/PlainTasks/tasks-gray.hidden-tmTheme
+    //   Packages/PlainTasks/tasks-monokai.hidden-tmTheme
+    //   Packages/PlainTasks/tasks-solarized-dark.hidden-tmTheme
+    //   Packages/PlainTasks/tasks-solarized-light.hidden-tmTheme
+}

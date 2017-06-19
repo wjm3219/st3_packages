@@ -2,10 +2,22 @@
 	"folders":
 	[
 		{
+			"path": "/Users/Terry/wp/todos"
+		},
+		{
 			"path": "/Users/Terry/wp/codes/zabbix"
 		},
 		{
+			"path": "/Users/Terry/wp/codes/switch"
+		},
+		{
 			"path": "/Users/Terry/wp/codes/shenzhen"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/referee_display"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/referee"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/pktgen-dpdk-pktgen-3.0.17"
@@ -18,6 +30,9 @@
 		},
 		{
 			"path": "/Users/Terry/wp/codes/localdns_check"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/ipv6"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/hexanchus"
@@ -62,6 +77,9 @@
 			"path": "/Users/Terry/wp/codes/gdns"
 		},
 		{
+			"path": "/Users/Terry/wp/codes/eagle_bak"
+		},
+		{
 			"path": "/Users/Terry/wp/codes/eagle"
 		},
 		{
@@ -93,6 +111,15 @@
 		},
 		{
 			"path": "/Users/Terry/gopher/src/woody"
+		},
+		{
+			"path": "/Users/Terry/gopher/src/try"
+		},
+		{
+			"path": "/Users/Terry/gopher/src/test"
+		},
+		{
+			"path": "/Users/Terry/gopher/src/go-fastping"
 		},
 		{
 			"path": "/Users/Terry/gopher/src/github.com/hashicorp/serf"
