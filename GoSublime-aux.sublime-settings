@@ -11,11 +11,18 @@
 	[
 		"go run color.go"
 	],
+	"9o.hist./Users/Terry/gopher/src/goping":
+	[
+		"go run main.go",
+		"go run ping.go"
+	],
 	"9o.hist./Users/Terry/gopher/src/try":
 	[
 		"help",
 		"go version",
 		"go run test.go",
+		"go run goping.go",
+		"go run cal.go",
 		"go run try.go"
 	],
 	"ann": "a17.03.05-1",

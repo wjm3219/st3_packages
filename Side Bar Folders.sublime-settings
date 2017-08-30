@@ -11,7 +11,13 @@
 			"path": "/Users/Terry/wp/codes/switch"
 		},
 		{
+			"path": "/Users/Terry/wp/codes/sogou"
+		},
+		{
 			"path": "/Users/Terry/wp/codes/shenzhen"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/shennong"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/referee_display"
@@ -23,13 +29,19 @@
 			"path": "/Users/Terry/wp/codes/pktgen-dpdk-pktgen-3.0.17"
 		},
 		{
-			"path": "/Users/Terry/wp/codes/nsd-4.1.12"
+			"path": "/Users/Terry/wp/codes/pigeon"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/nsd-4.1.17"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/nginx-1.10.1"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/localdns_check"
+		},
+		{
+			"path": "/Users/Terry/wp/codes/lemon"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/ipv6"
@@ -39,12 +51,6 @@
 		},
 		{
 			"path": "/Users/Terry/wp/codes/gslb_monitor/zabbix"
-		},
-		{
-			"path": "/Users/Terry/wp/codes/gslb_monitor/probe/zabbix"
-		},
-		{
-			"path": "/Users/Terry/wp/codes/gslb_monitor/eagle"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/gslb_monitor"
@@ -65,6 +71,9 @@
 			"path": "/Users/Terry/wp/codes/github/dpdk-ans"
 		},
 		{
+			"path": "/Users/Terry/wp/codes/github/dnspod-sr"
+		},
+		{
 			"path": "/Users/Terry/wp/codes/github/bsydns-pktgen"
 		},
 		{
@@ -77,25 +86,19 @@
 			"path": "/Users/Terry/wp/codes/gdns"
 		},
 		{
-			"path": "/Users/Terry/wp/codes/eagle_bak"
-		},
-		{
 			"path": "/Users/Terry/wp/codes/eagle"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/dpdk-16.07"
 		},
 		{
+			"path": "/Users/Terry/wp/codes/bsydns"
+		},
+		{
 			"path": "/Users/Terry/wp/codes/bind9.11"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/bind9.10"
-		},
-		{
-			"path": "/Users/Terry/wp/codes/bind-9.11.0-P1"
-		},
-		{
-			"path": "/Users/Terry/wp/codes/bind-9.10.4-P3"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/bind"
@@ -116,22 +119,40 @@
 			"path": "/Users/Terry/gopher/src/try"
 		},
 		{
+			"path": "/Users/Terry/gopher/src/trigger"
+		},
+		{
 			"path": "/Users/Terry/gopher/src/test"
+		},
+		{
+			"path": "/Users/Terry/gopher/src/sogou"
+		},
+		{
+			"path": "/Users/Terry/gopher/src/pepper"
+		},
+		{
+			"path": "/Users/Terry/gopher/src/ip_view"
+		},
+		{
+			"path": "/Users/Terry/gopher/src/goping"
 		},
 		{
 			"path": "/Users/Terry/gopher/src/go-fastping"
 		},
 		{
+			"path": "/Users/Terry/gopher/src/github.com/miekg/dns"
+		},
+		{
 			"path": "/Users/Terry/gopher/src/github.com/hashicorp/serf"
+		},
+		{
+			"path": "/Users/Terry/gopher/src/github.com/coredns/coredns"
 		},
 		{
 			"path": "/Users/Terry/gopher/src/eagle_moniter"
 		},
 		{
 			"path": "/Users/Terry/gopher/src"
-		},
-		{
-			"path": "/Users/Terry/gopher/go1.7.3/src"
 		}
 	]
 }
