@@ -25,7 +25,7 @@
 		"go run cal.go",
 		"go run try.go"
 	],
-	"ann": "a17.03.05-1",
-	"install_version": "r17.03.05-1",
-	"version": "r17.03.05-1"
+	"ann": "a17.08.23-1",
+	"install_version": "r17.08.23-1",
+	"version": "r17.08.23-1"
 }
