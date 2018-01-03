@@ -41,7 +41,7 @@
 	"theme_tab_highlight_text_only": true,
 	"theme_tab_selected_transparent": true,
 	"theme_tab_selected_underlined": true,
-	"theme_tab_size_xxl": true,
+	"theme_tab_size_md": true,
 	"theme_unified": true,
 	"translate_tabs_to_spaces": true,
 	"vintageous_use_ctrl_keys": true

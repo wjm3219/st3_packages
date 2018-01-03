@@ -23,9 +23,11 @@
 		"go run test.go",
 		"go run goping.go",
 		"go run cal.go",
+		"go run highcpu.go",
+		"go run try.go{\"method\": \"get\",\"select\": \"node\", \"params\": \"watch\", \"key\": \"\"}",
 		"go run try.go"
 	],
-	"ann": "a17.08.23-1",
-	"install_version": "r17.08.23-1",
-	"version": "r17.08.23-1"
+	"ann": "a17.12.17-1",
+	"install_version": "r17.12.17-1",
+	"version": "r17.12.17-1"
 }

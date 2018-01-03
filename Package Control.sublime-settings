@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"All Autocomplete",
 		"Boxy Theme",
 		"BracketHighlighter",
@@ -21,7 +22,9 @@
 		"Godef",
 		"GoSublime",
 		"GoTests",
+		"HTML-CSS-JS Prettify",
 		"Lua Dev",
+		"Markdown Preview",
 		"Package Control",
 		"PlainTasks",
 		"Pretty JSON",
@@ -29,7 +32,6 @@
 		"SideBarFolders",
 		"SublimeAStyleFormatter",
 		"Sublimerge 3",
-		"Theme - DC",
 		"Vintageous"
 	]
 }
