@@ -2,5 +2,6 @@
     "env": {
         "GOROOT": "/Users/Terry/gopher/go",
         "GOPATH": "/Users/Terry/gopher"
-    }
+    },
+    "fmt_enabled": false
 }
