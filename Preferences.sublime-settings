@@ -33,6 +33,7 @@
 	"theme_button_rounded": true,
 	"theme_dirty_colored_always": true,
 	"theme_icons_materialized": true,
+	"theme_popup_border_visible": true,
 	"theme_scrollbar_rounded": true,
 	"theme_sidebar_highlight_selected_text_only": true,
 	"theme_sidebar_highlight_text_only": true,

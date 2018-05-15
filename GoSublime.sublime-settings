@@ -3,5 +3,6 @@
         "GOROOT": "/Users/Terry/gopher/go",
         "GOPATH": "/Users/Terry/gopher"
     },
-    "fmt_enabled": false
+    "ipc_timeout": 1,
+    "fmt_enabled": true
 }

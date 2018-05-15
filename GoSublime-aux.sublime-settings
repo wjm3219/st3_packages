@@ -1,4 +1,15 @@
 {
+	"9o.hist./Applications/Sublime Text.app/Contents/MacOS":
+	[
+		"ls",
+		"cd package",
+		"cd Packages"
+	],
+	"9o.hist./Applications/Sublime Text.app/Contents/MacOS/Packages":
+	[
+		"ls",
+		"help"
+	],
 	"9o.hist./Users/Terry/Downloads":
 	[
 		"go test 1.go"
@@ -16,6 +27,10 @@
 		"go run main.go",
 		"go run ping.go"
 	],
+	"9o.hist./Users/Terry/gopher/src/radar":
+	[
+		"go run test.go"
+	],
 	"9o.hist./Users/Terry/gopher/src/try":
 	[
 		"help",
@@ -25,9 +40,10 @@
 		"go run cal.go",
 		"go run highcpu.go",
 		"go run try.go{\"method\": \"get\",\"select\": \"node\", \"params\": \"watch\", \"key\": \"\"}",
-		"go run try.go"
+		"go run try.go",
+		"go run ip_hex.go"
 	],
-	"ann": "a18.03.05-1",
-	"install_version": "r18.03.05-1",
-	"version": "r18.03.05-1"
+	"ann": "a18.04.30-1",
+	"install_version": "r18.04.30-1",
+	"version": "r18.04.30-1"
 }
