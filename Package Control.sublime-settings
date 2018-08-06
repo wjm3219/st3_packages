@@ -27,12 +27,14 @@
 		"Lua Dev",
 		"MarkdownPreview",
 		"Package Control",
+		"PackageResourceViewer",
 		"PlainTasks",
 		"Pretty JSON",
 		"SideBarEnhancements",
 		"SideBarFolders",
 		"SublimeAStyleFormatter",
 		"Sublimerge 3",
+		"TOML",
 		"Vintageous"
 	]
 }

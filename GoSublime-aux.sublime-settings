@@ -40,10 +40,14 @@
 		"go run cal.go",
 		"go run highcpu.go",
 		"go run try.go{\"method\": \"get\",\"select\": \"node\", \"params\": \"watch\", \"key\": \"\"}",
-		"go run try.go",
-		"go run ip_hex.go"
+		"go run ip_hex.go",
+		"go run try.go"
 	],
-	"ann": "a18.04.30-1",
-	"install_version": "r18.04.30-1",
-	"version": "r18.04.30-1"
+	"9o.hist./Users/Terry/gopher/src/try/toml":
+	[
+		"go run toml.go"
+	],
+	"ann": "a18.07.31-1",
+	"install_version": "r18.07.22-1",
+	"version": "r18.07.22-1"
 }

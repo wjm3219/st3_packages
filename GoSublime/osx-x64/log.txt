@@ -14105,3 +14105,1351 @@ Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/coverInfo"
 Gocode pkg: "falcon/falcon_pear/racoon/center"
 Gocode pkg: "falcon/falcon_pear/racoon/center"
 Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+Gocode pkg: "."
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/coverInfo"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/coverInfo"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/nodes"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/coverInfo"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/coverInfo"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/coverInfo"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/coverInfo"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "."
+Gocode pkg: "try"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "try"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "eagle_server/probelist"
+Gocode pkg: "."
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear/dnser"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/lvs"
+Gocode pkg: "falcon/falcon_pear/test"
+Gocode pkg: "falcon/falcon_pear/lvs"
+Gocode pkg: "falcon/falcon_pear/test"
+Gocode pkg: "falcon/falcon_pear/lvs"
+Gocode pkg: "falcon/falcon_pear/test"
+Gocode pkg: "falcon/falcon_pear/lvs"
+Gocode pkg: "."
+Gocode pkg: "try"
+Gocode pkg: "."
+Gocode pkg: "merlin/merlin_agent"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "."
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "try"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "."
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/cfg"
+Gocode pkg: "merlin/lib/jsoncfg"
+Gocode pkg: "merlin/merlin_agent/cfg"
+Gocode pkg: "merlin/lib/jsoncfg"
+Gocode pkg: "falcon/falcon_pear/gslber"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "try"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "amend302/pear/dnser"
+Gocode pkg: "amend302/pear/nodeBaseInfo/coverInfo"
+margo: 2018/05/22 11:58:25 broker.go:105: gocode_calltip#mg9.autoken.f9018ba9-fe8e-446b-8df3-00dbd377ab70 PANIC: open /Users/Terry/gopher/src/amend302/pear/nodeBaseInfo/coverInfo/: no such file or directory
+goroutine 69 [running]:
+gosublime/cmd/margo_pkg.(*Broker).call.func1(0xc423392000, 0xc4201c2310)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:104 +0xc2
+panic(0x146f1a0, 0xc423395350)
+	/Users/Terry/gopher/go/src/runtime/panic.go:502 +0x229
+gosublime/something-borrowed/gocode.find_other_package_files(0xc420dbe460, 0x4a, 0xc420907540, 0x9, 0xc422106f60, 0x0, 0x0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:589 +0x50f
+gosublime/something-borrowed/gocode.get_other_package_files(0xc420dbe460, 0x4a, 0xc420907540, 0x9, 0xc4201564c0, 0xc4209077c0, 0xc4209077c0, 0xc422db85a0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:554 +0x67
+gosublime/something-borrowed/gocode.(*auto_complete_context).update_caches(0xc42014a400)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:173 +0xf7
+gosublime/something-borrowed/gocode.(*auto_complete_context).apropos(0xc42014a400, 0xc422cfcc80, 0x256, 0x280, 0xc420dbe460, 0x4a, 0x117, 0x1, 0x1, 0xc420dbe460, ...)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:360 +0x1d2
+gosublime/something-borrowed/gocode.(*margoState).Complete(0xc42017e0b0, 0x1, 0x0, 0x0, 0xc42016cd80, 0x16, 0xc4230e6360, 0x1, 0x1, 0xc422cfcc80, ...)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/bridge._margo_.go:80 +0x137
+gosublime/cmd/margo_pkg.(*mGocode).completions(0xc4203e2200, 0xc422cfcc80, 0x256, 0x280, 0xc420dbe460, 0x4a, 0x117, 0x0, 0x280, 0xc422cfcc80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/m_gocode.go:95 +0x149
+gosublime/cmd/margo_pkg.(*mGocode).calltips(0xc4203e2200, 0xc422cfcc80, 0x256, 0x280, 0xc420dbe460, 0x4a, 0x10b, 0x13f4583, 0xc4233ebec8, 0x0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/m_gocode.go:105 +0x1ca
+gosublime/cmd/margo_pkg.(*mGocode).Call(0xc4203e2200, 0x15141e8, 0xc423392000, 0xc4201c2310, 0x0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/m_gocode.go:74 +0x162
+gosublime/cmd/margo_pkg.(*Broker).call(0xc4201c2310, 0xc423392000, 0x1550920, 0xc4203e2200)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:113 +0x9a
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:188 +0x9b
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 1 [syscall]:
+syscall.Syscall(0x3, 0x0, 0xc4202d4000, 0x1000, 0xc420000300, 0xc42255adc0, 0x4)
+	/Users/Terry/gopher/go/src/syscall/asm_darwin_amd64.s:16 +0x5
+syscall.read(0x0, 0xc4202d4000, 0x1000, 0x1000, 0xc42255ad01, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/syscall/zsyscall_darwin_amd64.go:947 +0x5f
+syscall.Read(0x0, 0xc4202d4000, 0x1000, 0x1000, 0x1443c60, 0xc4203e2230, 0x1842000)
+	/Users/Terry/gopher/go/src/syscall/syscall_unix.go:162 +0x49
+internal/poll.(*FD).Read(0xc42008e000, 0xc4202d4000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/internal/poll/fd_unix.go:153 +0x116
+os.(*File).read(0xc42000c010, 0xc4202d4000, 0x1000, 0x1000, 0xc4201a08a0, 0x14d2d60, 0xc4203e2200)
+	/Users/Terry/gopher/go/src/os/file_unix.go:226 +0x4e
+os.(*File).Read(0xc42000c010, 0xc4202d4000, 0x1000, 0x1000, 0xc42002c070, 0xc4229bf9c8, 0x1003805)
+	/Users/Terry/gopher/go/src/os/file.go:107 +0x6a
+bufio.(*Reader).fill(0xc42018a240)
+	/Users/Terry/gopher/go/src/bufio/bufio.go:100 +0x11e
+bufio.(*Reader).ReadSlice(0xc42018a240, 0xc4224fda0a, 0xc4229bfa88, 0x1003537, 0xc420142120, 0xc4224fda40, 0xc4229bfbb8)
+	/Users/Terry/gopher/go/src/bufio/bufio.go:341 +0x2c
+bufio.(*Reader).ReadBytes(0xc42018a240, 0xc4229bfb0a, 0xc4203e2200, 0x0, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/bufio/bufio.go:419 +0x6b
+gosublime/cmd/margo_pkg.(*Broker).accept(0xc4201c2310, 0xc420142120, 0xc4201c2300)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:128 +0x4c
+gosublime/cmd/margo_pkg.(*Broker).Loop(0xc4201c2310, 0x1510001)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:213 +0x153
+gosublime/cmd/margo_pkg.Main()
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:140 +0x585
+main.main()
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo/main.go:8 +0x20
+
+goroutine 18 [chan receive]:
+gosublime/something-borrowed/gocode.new_file_reader.func1(0xc4201540a8)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:229 +0x71
+created by gosublime/something-borrowed/gocode.new_file_reader
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:226 +0x88
+
+goroutine 19 [chan receive, 4268 minutes]:
+gosublime/cmd/margo_pkg.init.1.func1()
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/g_autoinst.go:114 +0xd1
+created by gosublime/cmd/margo_pkg.init.1
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/g_autoinst.go:113 +0x35
+
+goroutine 20 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/Users/Terry/gopher/go/src/runtime/time.go:102 +0x166
+gosublime/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/oom.go:31 +0xae
+created by gosublime/cmd/margo_pkg.startOomKiller
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/oom.go:10 +0x3f
+
+goroutine 23 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/Users/Terry/gopher/go/src/runtime/time.go:102 +0x166
+gosublime/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc4201c2310, 0xc4201681b0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:122 +0xda
+created by gosublime/cmd/margo_pkg.Main
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:120 +0x68d
+
+goroutine 24 [chan receive, 4268 minutes]:
+gosublime/cmd/margo_pkg.Main.func2(0xc4201c2310)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:135 +0xf6
+created by gosublime/cmd/margo_pkg.Main
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:134 +0x557
+
+goroutine 51 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 52 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 53 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 54 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 55 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 56 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 57 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 58 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 59 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 60 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 61 [syscall, 16 minutes]:
+syscall.Syscall6(0x7, 0x48b1, 0xc421fa9c6c, 0x0, 0xc42304e000, 0x0, 0x0, 0x90, 0xc42304e000, 0x0)
+	/Users/Terry/gopher/go/src/syscall/asm_darwin_amd64.s:41 +0x5
+syscall.wait4(0x48b1, 0xc421fa9c6c, 0x0, 0xc42304e000, 0x90, 0x14dfa40, 0xc4227b4201)
+	/Users/Terry/gopher/go/src/syscall/zsyscall_darwin_amd64.go:34 +0x7e
+syscall.Wait4(0x48b1, 0xc421fa9cbc, 0x0, 0xc42304e000, 0x0, 0x0, 0x1)
+	/Users/Terry/gopher/go/src/syscall/syscall_bsd.go:129 +0x51
+os.(*Process).wait(0xc4203e83c0, 0xc422062270, 0xc420098238, 0xc420098238)
+	/Users/Terry/gopher/go/src/os/exec_unix.go:38 +0x7e
+os.(*Process).Wait(0xc4203e83c0, 0x1514960, 0x1514968, 0x1514958)
+	/Users/Terry/gopher/go/src/os/exec.go:123 +0x2b
+os/exec.(*Cmd).Wait(0xc420098160, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/os/exec/exec.go:461 +0x5c
+os/exec.(*Cmd).Run(0xc420098160, 0x1f, 0xc420098160)
+	/Users/Terry/gopher/go/src/os/exec/exec.go:305 +0x5c
+gosublime/cmd/margo_pkg.(*mSh).Call(0xc420374e00, 0x15141e8, 0xc420102e40, 0xc4201c2310, 0x0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/m_sh.go:49 +0x27a
+gosublime/cmd/margo_pkg.(*Broker).call(0xc4201c2310, 0xc420102e40, 0x1550aa0, 0xc420374e00)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:113 +0x9a
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:188 +0x9b
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 62 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 63 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 64 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 65 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 66 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 67 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 68 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 70 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 96003 [IO wait]:
+internal/poll.runtime_pollWait(0x1923068, 0x72, 0xc42032dce8)
+	/Users/Terry/gopher/go/src/runtime/netpoll.go:173 +0x57
+internal/poll.(*pollDesc).wait(0xc422202018, 0x72, 0xffffffffffffff01, 0x1551d80, 0x17433c0)
+	/Users/Terry/gopher/go/src/internal/poll/fd_poll_runtime.go:85 +0x9b
+internal/poll.(*pollDesc).waitRead(0xc422202018, 0xc423313a01, 0x31b, 0x31b)
+	/Users/Terry/gopher/go/src/internal/poll/fd_poll_runtime.go:90 +0x3d
+internal/poll.(*FD).Read(0xc422202000, 0xc423313ae5, 0x31b, 0x31b, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/internal/poll/fd_unix.go:157 +0x1dc
+os.(*File).read(0xc421d5c088, 0xc423313ae5, 0x31b, 0x31b, 0xf, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/os/file_unix.go:226 +0x4e
+os.(*File).Read(0xc421d5c088, 0xc423313ae5, 0x31b, 0x31b, 0xf, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/os/file.go:107 +0x6a
+bytes.(*Buffer).ReadFrom(0xc420375960, 0x15510c0, 0xc421d5c088, 0x1db2d80, 0xc420375960, 0x1)
+	/Users/Terry/gopher/go/src/bytes/buffer.go:205 +0xa0
+io.copyBuffer(0x15505a0, 0xc420375960, 0x15510c0, 0xc421d5c088, 0x0, 0x0, 0x0, 0xc42002c000, 0xc422a26a98, 0xc422a26aa0)
+	/Users/Terry/gopher/go/src/io/io.go:386 +0x31a
+io.Copy(0x15505a0, 0xc420375960, 0x15510c0, 0xc421d5c088, 0xc42032dfa8, 0x1003015, 0xc421158000)
+	/Users/Terry/gopher/go/src/io/io.go:362 +0x5a
+os/exec.(*Cmd).writerDescriptor.func1(0x13acb91, 0xc421158000)
+	/Users/Terry/gopher/go/src/os/exec/exec.go:275 +0x4d
+os/exec.(*Cmd).Start.func1(0xc420098160, 0xc4227b42a0)
+	/Users/Terry/gopher/go/src/os/exec/exec.go:396 +0x27
+created by os/exec.(*Cmd).Start
+	/Users/Terry/gopher/go/src/os/exec/exec.go:395 +0x5df
+
+goroutine 96004 [IO wait, 16 minutes]:
+internal/poll.runtime_pollWait(0x1923208, 0x72, 0xc422aad4e8)
+	/Users/Terry/gopher/go/src/runtime/netpoll.go:173 +0x57
+internal/poll.(*pollDesc).wait(0xc4222020b8, 0x72, 0xffffffffffffff01, 0x1551d80, 0x17433c0)
+	/Users/Terry/gopher/go/src/internal/poll/fd_poll_runtime.go:85 +0x9b
+internal/poll.(*pollDesc).waitRead(0xc4222020b8, 0xc422cf4001, 0x200, 0x200)
+	/Users/Terry/gopher/go/src/internal/poll/fd_poll_runtime.go:90 +0x3d
+internal/poll.(*FD).Read(0xc4222020a0, 0xc422cf4000, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/internal/poll/fd_unix.go:157 +0x1dc
+os.(*File).read(0xc421d5c0f8, 0xc422cf4000, 0x200, 0x200, 0xc422cf4000, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/os/file_unix.go:226 +0x4e
+os.(*File).Read(0xc421d5c0f8, 0xc422cf4000, 0x200, 0x200, 0x0, 0xc422aad658, 0xc422aad660)
+	/Users/Terry/gopher/go/src/os/file.go:107 +0x6a
+bytes.(*Buffer).ReadFrom(0xc4203753b0, 0x15510c0, 0xc421d5c0f8, 0x1db2d80, 0xc4203753b0, 0x1)
+	/Users/Terry/gopher/go/src/bytes/buffer.go:205 +0xa0
+io.copyBuffer(0x15505a0, 0xc4203753b0, 0x15510c0, 0xc421d5c0f8, 0x0, 0x0, 0x0, 0x0, 0x0, 0xc422aad778)
+	/Users/Terry/gopher/go/src/io/io.go:386 +0x31a
+io.Copy(0x15505a0, 0xc4203753b0, 0x15510c0, 0xc421d5c0f8, 0xc422aad788, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/io/io.go:362 +0x5a
+os/exec.(*Cmd).writerDescriptor.func1(0x1032588, 0x1514ba0)
+	/Users/Terry/gopher/go/src/os/exec/exec.go:275 +0x4d
+os/exec.(*Cmd).Start.func1(0xc420098160, 0xc4227b42e0)
+	/Users/Terry/gopher/go/src/os/exec/exec.go:396 +0x27
+created by os/exec.(*Cmd).Start
+	/Users/Terry/gopher/go/src/os/exec/exec.go:395 +0x5df
+
+
+Gocode pkg: "amend302/pear/switchsync"
+Gocode pkg: "amend302/pear/nodeBaseInfo/coverInfo"
+margo: 2018/05/22 11:58:30 broker.go:105: gocode_calltip#mg9.autoken.fc92600e-b831-441f-a6e4-daddaec02aa7 PANIC: open /Users/Terry/gopher/src/amend302/pear/nodeBaseInfo/coverInfo/: no such file or directory
+goroutine 58 [running]:
+gosublime/cmd/margo_pkg.(*Broker).call.func1(0xc4224f0f80, 0xc4201c2310)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:104 +0xc2
+panic(0x146f1a0, 0xc423088fc0)
+	/Users/Terry/gopher/go/src/runtime/panic.go:502 +0x229
+gosublime/something-borrowed/gocode.find_other_package_files(0xc420dd2230, 0x4a, 0xc421e95010, 0x9, 0xc422107860, 0x0, 0x0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:589 +0x50f
+gosublime/something-borrowed/gocode.get_other_package_files(0xc420dd2230, 0x4a, 0xc421e95010, 0x9, 0xc4201564c0, 0xc421e95260, 0xc421e95260, 0xc422c5d338)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:554 +0x67
+gosublime/something-borrowed/gocode.(*auto_complete_context).update_caches(0xc42014a400)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:173 +0xf7
+gosublime/something-borrowed/gocode.(*auto_complete_context).apropos(0xc42014a400, 0xc422cfc280, 0x256, 0x280, 0xc420dd2230, 0x4a, 0x117, 0x1, 0x1, 0xc420dd2230, ...)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:360 +0x1d2
+gosublime/something-borrowed/gocode.(*margoState).Complete(0xc42017e0b0, 0x1, 0x0, 0x0, 0xc421f25320, 0x16, 0xc420f973e0, 0x1, 0x1, 0xc422cfc280, ...)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/bridge._margo_.go:80 +0x137
+gosublime/cmd/margo_pkg.(*mGocode).completions(0xc4203e3400, 0xc422cfc280, 0x256, 0x280, 0xc420dd2230, 0x4a, 0x117, 0x0, 0x280, 0xc422cfc280)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/m_gocode.go:95 +0x149
+gosublime/cmd/margo_pkg.(*mGocode).calltips(0xc4203e3400, 0xc422cfc280, 0x256, 0x280, 0xc420dd2230, 0x4a, 0x10b, 0xc420ee3800, 0x200000003, 0xc420ee3800)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/m_gocode.go:105 +0x1ca
+gosublime/cmd/margo_pkg.(*mGocode).Call(0xc4203e3400, 0x15141e8, 0xc4224f0f80, 0xc4201c2310, 0x0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/m_gocode.go:74 +0x162
+gosublime/cmd/margo_pkg.(*Broker).call(0xc4201c2310, 0xc4224f0f80, 0x1550920, 0xc4203e3400)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:113 +0x9a
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:188 +0x9b
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 1 [syscall]:
+syscall.Syscall(0x3, 0x0, 0xc4202d4000, 0x1000, 0xc420000300, 0xc422797340, 0x4)
+	/Users/Terry/gopher/go/src/syscall/asm_darwin_amd64.s:16 +0x5
+syscall.read(0x0, 0xc4202d4000, 0x1000, 0x1000, 0xc422797301, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/syscall/zsyscall_darwin_amd64.go:947 +0x5f
+syscall.Read(0x0, 0xc4202d4000, 0x1000, 0x1000, 0x1443c60, 0xc4203e3430, 0x18426c8)
+	/Users/Terry/gopher/go/src/syscall/syscall_unix.go:162 +0x49
+internal/poll.(*FD).Read(0xc42008e000, 0xc4202d4000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/internal/poll/fd_unix.go:153 +0x116
+os.(*File).read(0xc42000c010, 0xc4202d4000, 0x1000, 0x1000, 0xc4201a08a0, 0x14d2d60, 0xc4203e3400)
+	/Users/Terry/gopher/go/src/os/file_unix.go:226 +0x4e
+os.(*File).Read(0xc42000c010, 0xc4202d4000, 0x1000, 0x1000, 0xc42002e570, 0xc4229bf9c8, 0x1003805)
+	/Users/Terry/gopher/go/src/os/file.go:107 +0x6a
+bufio.(*Reader).fill(0xc42018a240)
+	/Users/Terry/gopher/go/src/bufio/bufio.go:100 +0x11e
+bufio.(*Reader).ReadSlice(0xc42018a240, 0xc42014370a, 0xc4229bfa88, 0x1003537, 0xc420142120, 0xc4201436e0, 0xc4229bfbb8)
+	/Users/Terry/gopher/go/src/bufio/bufio.go:341 +0x2c
+bufio.(*Reader).ReadBytes(0xc42018a240, 0xc4229bfb0a, 0xc4203e3400, 0x0, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/bufio/bufio.go:419 +0x6b
+gosublime/cmd/margo_pkg.(*Broker).accept(0xc4201c2310, 0xc420142120, 0xc4201c2300)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:128 +0x4c
+gosublime/cmd/margo_pkg.(*Broker).Loop(0xc4201c2310, 0x1510001)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:213 +0x153
+gosublime/cmd/margo_pkg.Main()
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:140 +0x585
+main.main()
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo/main.go:8 +0x20
+
+goroutine 18 [chan receive]:
+gosublime/something-borrowed/gocode.new_file_reader.func1(0xc4201540a8)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:229 +0x71
+created by gosublime/something-borrowed/gocode.new_file_reader
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:226 +0x88
+
+goroutine 19 [chan receive, 4268 minutes]:
+gosublime/cmd/margo_pkg.init.1.func1()
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/g_autoinst.go:114 +0xd1
+created by gosublime/cmd/margo_pkg.init.1
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/g_autoinst.go:113 +0x35
+
+goroutine 20 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/Users/Terry/gopher/go/src/runtime/time.go:102 +0x166
+gosublime/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/oom.go:31 +0xae
+created by gosublime/cmd/margo_pkg.startOomKiller
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/oom.go:10 +0x3f
+
+goroutine 23 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/Users/Terry/gopher/go/src/runtime/time.go:102 +0x166
+gosublime/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc4201c2310, 0xc4201681b0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:122 +0xda
+created by gosublime/cmd/margo_pkg.Main
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:120 +0x68d
+
+goroutine 24 [chan receive, 4268 minutes]:
+gosublime/cmd/margo_pkg.Main.func2(0xc4201c2310)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:135 +0xf6
+created by gosublime/cmd/margo_pkg.Main
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:134 +0x557
+
+goroutine 51 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 52 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 53 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 54 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 55 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 56 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 57 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 59 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 60 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 61 [syscall, 16 minutes]:
+syscall.Syscall6(0x7, 0x48b1, 0xc421fa9c6c, 0x0, 0xc42304e000, 0x0, 0x0, 0x90, 0xc42304e000, 0x0)
+	/Users/Terry/gopher/go/src/syscall/asm_darwin_amd64.s:41 +0x5
+syscall.wait4(0x48b1, 0xc421fa9c6c, 0x0, 0xc42304e000, 0x90, 0x14dfa40, 0xc4227b4201)
+	/Users/Terry/gopher/go/src/syscall/zsyscall_darwin_amd64.go:34 +0x7e
+syscall.Wait4(0x48b1, 0xc421fa9cbc, 0x0, 0xc42304e000, 0x0, 0x0, 0x1)
+	/Users/Terry/gopher/go/src/syscall/syscall_bsd.go:129 +0x51
+os.(*Process).wait(0xc4203e83c0, 0xc422062270, 0xc420098238, 0xc420098238)
+	/Users/Terry/gopher/go/src/os/exec_unix.go:38 +0x7e
+os.(*Process).Wait(0xc4203e83c0, 0x1514960, 0x1514968, 0x1514958)
+	/Users/Terry/gopher/go/src/os/exec.go:123 +0x2b
+os/exec.(*Cmd).Wait(0xc420098160, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/os/exec/exec.go:461 +0x5c
+os/exec.(*Cmd).Run(0xc420098160, 0x1f, 0xc420098160)
+	/Users/Terry/gopher/go/src/os/exec/exec.go:305 +0x5c
+gosublime/cmd/margo_pkg.(*mSh).Call(0xc420374e00, 0x15141e8, 0xc420102e40, 0xc4201c2310, 0x0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/m_sh.go:49 +0x27a
+gosublime/cmd/margo_pkg.(*Broker).call(0xc4201c2310, 0xc420102e40, 0x1550aa0, 0xc420374e00)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:113 +0x9a
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:188 +0x9b
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 62 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 63 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 64 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 65 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 66 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 67 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 68 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 69 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 70 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201c2310, 0xc4202de080, 0xc420142120)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 96003 [IO wait]:
+internal/poll.runtime_pollWait(0x1923068, 0x72, 0xc42032dce8)
+	/Users/Terry/gopher/go/src/runtime/netpoll.go:173 +0x57
+internal/poll.(*pollDesc).wait(0xc422202018, 0x72, 0xffffffffffffff01, 0x1551d80, 0x17433c0)
+	/Users/Terry/gopher/go/src/internal/poll/fd_poll_runtime.go:85 +0x9b
+internal/poll.(*pollDesc).waitRead(0xc422202018, 0xc423313b01, 0x2d0, 0x2d0)
+	/Users/Terry/gopher/go/src/internal/poll/fd_poll_runtime.go:90 +0x3d
+internal/poll.(*FD).Read(0xc422202000, 0xc423313b30, 0x2d0, 0x2d0, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/internal/poll/fd_unix.go:157 +0x1dc
+os.(*File).read(0xc421d5c088, 0xc423313b30, 0x2d0, 0x2d0, 0xf, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/os/file_unix.go:226 +0x4e
+os.(*File).Read(0xc421d5c088, 0xc423313b30, 0x2d0, 0x2d0, 0xf, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/os/file.go:107 +0x6a
+bytes.(*Buffer).ReadFrom(0xc420375960, 0x15510c0, 0xc421d5c088, 0x1db2d80, 0xc420375960, 0x1)
+	/Users/Terry/gopher/go/src/bytes/buffer.go:205 +0xa0
+io.copyBuffer(0x15505a0, 0xc420375960, 0x15510c0, 0xc421d5c088, 0x0, 0x0, 0x0, 0xc42002c000, 0xc422a26a98, 0xc422a26aa0)
+	/Users/Terry/gopher/go/src/io/io.go:386 +0x31a
+io.Copy(0x15505a0, 0xc420375960, 0x15510c0, 0xc421d5c088, 0xc42032dfa8, 0x1003015, 0xc421158000)
+	/Users/Terry/gopher/go/src/io/io.go:362 +0x5a
+os/exec.(*Cmd).writerDescriptor.func1(0x13acb91, 0xc421158000)
+	/Users/Terry/gopher/go/src/os/exec/exec.go:275 +0x4d
+os/exec.(*Cmd).Start.func1(0xc420098160, 0xc4227b42a0)
+	/Users/Terry/gopher/go/src/os/exec/exec.go:396 +0x27
+created by os/exec.(*Cmd).Start
+	/Users/Terry/gopher/go/src/os/exec/exec.go:395 +0x5df
+
+goroutine 96004 [IO wait, 16 minutes]:
+internal/poll.runtime_pollWait(0x1923208, 0x72, 0xc422aad4e8)
+	/Users/Terry/gopher/go/src/runtime/netpoll.go:173 +0x57
+internal/poll.(*pollDesc).wait(0xc4222020b8, 0x72, 0xffffffffffffff01, 0x1551d80, 0x17433c0)
+	/Users/Terry/gopher/go/src/internal/poll/fd_poll_runtime.go:85 +0x9b
+internal/poll.(*pollDesc).waitRead(0xc4222020b8, 0xc422cf4001, 0x200, 0x200)
+	/Users/Terry/gopher/go/src/internal/poll/fd_poll_runtime.go:90 +0x3d
+internal/poll.(*FD).Read(0xc4222020a0, 0xc422cf4000, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/internal/poll/fd_unix.go:157 +0x1dc
+os.(*File).read(0xc421d5c0f8, 0xc422cf4000, 0x200, 0x200, 0xc422cf4000, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/os/file_unix.go:226 +0x4e
+os.(*File).Read(0xc421d5c0f8, 0xc422cf4000, 0x200, 0x200, 0x0, 0xc422aad658, 0xc422aad660)
+	/Users/Terry/gopher/go/src/os/file.go:107 +0x6a
+bytes.(*Buffer).ReadFrom(0xc4203753b0, 0x15510c0, 0xc421d5c0f8, 0x1db2d80, 0xc4203753b0, 0x1)
+	/Users/Terry/gopher/go/src/bytes/buffer.go:205 +0xa0
+io.copyBuffer(0x15505a0, 0xc4203753b0, 0x15510c0, 0xc421d5c0f8, 0x0, 0x0, 0x0, 0x0, 0x0, 0xc422aad778)
+	/Users/Terry/gopher/go/src/io/io.go:386 +0x31a
+io.Copy(0x15505a0, 0xc4203753b0, 0x15510c0, 0xc421d5c0f8, 0xc422aad788, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/io/io.go:362 +0x5a
+os/exec.(*Cmd).writerDescriptor.func1(0x1032588, 0x1514ba0)
+	/Users/Terry/gopher/go/src/os/exec/exec.go:275 +0x4d
+os/exec.(*Cmd).Start.func1(0xc420098160, 0xc4227b42e0)
+	/Users/Terry/gopher/go/src/os/exec/exec.go:396 +0x27
+created by os/exec.(*Cmd).Start
+	/Users/Terry/gopher/go/src/os/exec/exec.go:395 +0x5df
+
+
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/cfg"
+Gocode pkg: "merlin/merlin_agent"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+Gocode pkg: "merlin/merlin_agent"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "merlin/merlin_agent"
+Gocode pkg: "merlin/merlin_agent/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "merlin/merlin_agent/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "merlin/merlin_agent/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "merlin/merlin_agent/cfg"
+Gocode pkg: "merlin/merlin_agent"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/cfg"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent"
+Gocode pkg: "."
+Gocode pkg: "merlin/merlin_agent"
+Gocode pkg: "."
+Gocode pkg: "merlin/merlin_agent"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent"
+Gocode pkg: "merlin/merlin_agent/test"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent"
+Gocode pkg: "merlin/merlin_agent/test"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_server/cfg"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_server/cfg"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/merlin_agent"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/merlin_agent/test"
+Gocode pkg: "merlin/merlin_agent"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent"
+Gocode pkg: "merlin/merlin_agent/cfg"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent"
+Gocode pkg: "merlin/merlin_agent/cfg"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/test"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/test"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/test"
+Gocode pkg: "falcon/falcon_apple/syncer"
+Gocode pkg: "merlin/merlin_agent/test"
+Gocode pkg: "falcon/falcon_apple/syncer"
+Gocode pkg: "net/url"
+Gocode pkg: "falcon/falcon_apple/syncer"
+Gocode pkg: "merlin/merlin_agent/test"
+Gocode pkg: "falcon/falcon_apple/syncer"
+Gocode pkg: "merlin/merlin_agent/test"
+Gocode pkg: "falcon/falcon_apple/syncer"
+Gocode pkg: "merlin/merlin_agent/test"
+Gocode pkg: "falcon/falcon_apple/syncer"
+Gocode pkg: "merlin/merlin_agent/test"
+Gocode pkg: "falcon/falcon_apple/syncer"
+Gocode pkg: "merlin/merlin_agent/test"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/test"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/merlin_server/cfg"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/merlin_server/cfg"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_server/cfg"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "donkey/nodeinfo"
+Gocode pkg: "lion/entry"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "."
+Gocode pkg: "try"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/coverPos"
+Gocode pkg: "falcon/falcon_pear/httpserver/test"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/coverPos"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/coverInfo"
+Gocode pkg: "falcon/falcon_pear/httpserver/test"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/coverPos"
+Gocode pkg: "falcon/falcon_pear/lvs"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/lvs"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/coverPos"
+Gocode pkg: "falcon/falcon_pear/gslber"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/coverPos"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/coverInfo"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_server/cfg"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_server/cfg"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_server/control"
+Gocode pkg: "try"
+Gocode pkg: "."
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_server/control"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_server/control"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "."
+Gocode pkg: "try"
+Gocode pkg: "."
+Gocode pkg: "try"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "try"
+Gocode pkg: "falcon/falcon_pear/dispatcher"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+Gocode pkg: "falcon/falcon_pear/racoon/policy"
+Gocode pkg: "falcon/falcon_pear/gslber"
+Gocode pkg: "falcon/falcon_pear/clientMonitor"
+Gocode pkg: "falcon/falcon_pear/switchsync"
+Gocode pkg: "falcon/falcon_pear/gslber"
+Gocode pkg: "falcon/falcon_pear/racoon/policy"
+Gocode pkg: "falcon/falcon_pear/dispatcher"
+Gocode pkg: "falcon/falcon_pear/dispatcher"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/dnser"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/policy"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "falcon/falcon_pear/listener"
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "."
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/merlin_server/baseinfo/nodes"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/merlin_server/control"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/merlin_server/control"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/merlin_server/baseinfo/nodes"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/merlin_server/baseinfo/nodes"
+Gocode pkg: "merlin/merlin_server/baseinfo/baseinfo"
+Gocode pkg: "merlin/merlin_server/baseinfo/nodes"
+Gocode pkg: "merlin/merlin_server/baseinfo/policy"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/merlin_server/baseinfo/policy"
+Gocode pkg: "merlin/merlin_server/baseinfo/nodes"
+Gocode pkg: "merlin/merlin_server/baseinfo/baseinfo"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/lib/alarm"
+Gocode pkg: "merlin/merlin_server/control"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_server/control"
+Gocode pkg: "merlin/merlin_server/cfg"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_server/control"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_server/control"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_server/cfg"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/lib/httpserver"
+Gocode pkg: "merlin/merlin_server/control"
+Gocode pkg: "merlin/merlin_server/baseinfo/nodes"
+Gocode pkg: "merlin/lib/httpserver"
+Gocode pkg: "merlin/merlin_server/control"
+Gocode pkg: "merlin/merlin_server/baseinfo/policy"
+Gocode pkg: "merlin/merlin_server/control"
+Gocode pkg: "merlin/merlin_server/cfg"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_server/control"
+Gocode pkg: "merlin/merlin_server/cfg"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/localHostInfo"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_server/cfg"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/cfg"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "."
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "."
+Gocode pkg: "eagle_server/global"
+Gocode pkg: "."
+Gocode pkg: "eagle_agent/detect"
+Gocode pkg: "."
+Gocode pkg: "eagle_server/center"
+Gocode pkg: "."
+Gocode pkg: "eagle_server/center"
+Gocode pkg: "."
+Gocode pkg: "eagle_server/center"
+Gocode pkg: "."
+Gocode pkg: "feixiang/server/list"
+Gocode pkg: "."
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "net/http"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/upload"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_server/monitor"
+Gocode pkg: "merlin/merlin_server/cfg"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/merlin_server/cfg"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "net/url"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "try"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_server/monitor"
+Gocode pkg: "merlin/merlin_server/alive"
+Gocode pkg: "."
+Gocode pkg: "merlin/merlin_server/alive"
+Gocode pkg: "."
+Gocode pkg: "merlin/merlin_server/alive"
+Gocode pkg: "."
+Gocode pkg: "merlin/merlin_server/alive"
+Gocode pkg: "."
+Gocode pkg: "merlin/merlin_server/alive"
+Gocode pkg: "merlin/merlin_server/monitor"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/merlin_server/monitor"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_server/control"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_server/monitor"
+Gocode pkg: "merlin/merlin_server/alive"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_server/alive"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/merlin_server/alive"
+Gocode pkg: "merlin/merlin_server/cfg"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_server/alive"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_server/control"
+Gocode pkg: "merlin/merlin_server/alive"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_server/control"
+Gocode pkg: "merlin/merlin_server/alive"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+Gocode pkg: "merlin/merlin_server/baseinfo/policy"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "falcon/falcon_pear/racoon/policy"
+Gocode pkg: "lemonx/alarm"
+Gocode pkg: "lemonx/calculator2"
+Gocode pkg: "lemonx/httpserver"
+Gocode pkg: "lemonx/calculator2"
+Gocode pkg: "lemonx/calculator2/contact302"
+Gocode pkg: "lemonx/guid"
+Gocode pkg: "lemonx/tools/clearpgb"
+Gocode pkg: "lemonx/calculator2/region"
+Gocode pkg: "lemonx/calculator2/syncBandWidth"
+Gocode pkg: "lemonx/calculator2/region"
+Gocode pkg: "lemonx/calculator2/areaBandWidth"
+Gocode pkg: "lemonx/calculator2/region"
+Gocode pkg: "lemonx/calculator2/areaBandWidth"
+Gocode pkg: "lemonx/calculator2/region"
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "."
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "falcon/falcon_pear/clientMonitor"
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "tudou"
+Gocode pkg: "woody"
+Gocode pkg: "woody/baseinfo"
+Gocode pkg: "woody/httpmodule"
+Gocode pkg: "woody/baseinfo"
+Gocode pkg: "woody/httpmodule"
+Gocode pkg: "woody/baseinfo"
+Gocode pkg: "woody/httpmodule"
+Gocode pkg: "woody/baseinfo_es"
+Gocode pkg: "woody/coverInfo"
+Gocode pkg: "woody/baseinfo_es"
+Gocode pkg: "woody/coverInfo"
+Gocode pkg: "woody"
+Gocode pkg: "woody/coverInfo"
+Gocode pkg: "woody"
+Gocode pkg: "woody/baseinfo_es"
+Gocode pkg: "woody/coverInfo"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/nodes"
+Gocode pkg: "woody/coverInfo"
+Gocode pkg: "woody/lvs"
+Gocode pkg: "woody"
+Gocode pkg: "woody/coverInfo"
+Gocode pkg: "woody/nodes"
+Gocode pkg: "woody"
+Gocode pkg: "woody/nodes"
+Gocode pkg: "woody"
+Gocode pkg: "woody/nodes"
+Gocode pkg: "woody"
+Gocode pkg: "woody/baseinfo_es"
+Gocode pkg: "woody"
+Gocode pkg: "woody/nodes"
+Gocode pkg: "woody/baseinfo_es"
+Gocode pkg: "woody/nodes"
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "woody"
+Gocode pkg: "woody/baseinfo_es"
+Gocode pkg: "woody"
+Gocode pkg: "woody/nodes"
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "woody/nodes"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/nodes"
+Gocode pkg: "woody/nodes"
+Gocode pkg: "woody"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/nodes"
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "hooker/checker"
+Gocode pkg: "bsip/ipip"
+Gocode pkg: "bsip/inquiry"
+Gocode pkg: "bsip/newdatabase"
+Gocode pkg: "bsip/ipip"
+Gocode pkg: "bsip/newdatabase"
+Gocode pkg: "hooker"
+Gocode pkg: "hooker/checker"
+Gocode pkg: "hooker"
+Gocode pkg: "bsip/newdatabase"
+Gocode pkg: "bsip/ipip"
+Gocode pkg: "bsip/inquiry"
+Gocode pkg: "woody/baseinfo_es"
+Gocode pkg: "bird/ipip"
+Gocode pkg: "bsip/inquiry"
+Gocode pkg: "bsip/newdatabase"
+Gocode pkg: "bird/newdatabase"
+Gocode pkg: "bird"
+Gocode pkg: "bird/nodes"
+Gocode pkg: "woody"
+Gocode pkg: "bird"
+Gocode pkg: "bird/baseinfo_es"
+Gocode pkg: "bird"
+Gocode pkg: "bird/newdatabase"
+Gocode pkg: "bird"
+Gocode pkg: "bird/newdatabase"
+Gocode pkg: "bird"
+Gocode pkg: "try"
+Gocode pkg: "bsip/newdatabase"
+Gocode pkg: "bird"
+Gocode pkg: "bird/newdatabase"
+Gocode pkg: "bsip/ipip"
+Gocode pkg: "bird"
+Gocode pkg: "bird/nodes"
+Gocode pkg: "bird"
+Gocode pkg: "bird/nodes"
+Gocode pkg: "bird/baseinfo_es"
+Gocode pkg: "bird/nodes"
+Gocode pkg: "bird"
+Gocode pkg: "bsip/newdatabase"
+Gocode pkg: "bsip/ipip"
+Gocode pkg: "hooker"
+Gocode pkg: "hooker/checker"
+Gocode pkg: "hooker/shuttle"
+Gocode pkg: "hooker/inputer"
+Gocode pkg: "hooker/restruct"
+Gocode pkg: "hooker/shuttle"
+Gocode pkg: "hooker"
+Gocode pkg: "hooker/shuttle"
+Gocode pkg: "hooker/inputer"
+Gocode pkg: "hooker/shuttle"
+Gocode pkg: "bird"
+Gocode pkg: "falcon/falcon_apple/syncer"
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode pkg: "."
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/nodes"
+Gocode pkg: "merlin/merlin_server/baseinfo/nodes"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/nodes"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/lib/compress"
+Gocode pkg: "falcon/falcon_pear/racoon/lib/jsoncfg"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/graylist"
+Gocode pkg: "try"
+Gocode pkg: "falcon/falcon_pear/racoon/graylist"
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/graylist"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/graylist"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/graylist"
+Gocode pkg: "falcon/falcon_pear/racoon/viewnode"
+Gocode pkg: "falcon/falcon_pear/racoon/graylist"
+Gocode pkg: "falcon/falcon_pear/racoon/viewnode"
+Gocode pkg: "merlin/merlin_server/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/viewnode"
+Gocode pkg: "falcon/falcon_pear/racoon/policy"
+Gocode pkg: "falcon/falcon_pear/racoon/lib/compress"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "falcon/falcon_pear/racoon/lib/compress"
+Gocode pkg: "."
+Gocode pkg: "sogou/server/list"
+Gocode pkg: "."
+Gocode pkg: "falcon/falcon_pear/racoon/lib/compress"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "falcon/falcon_pear/racoon/policy"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/lib/compress"
+Gocode pkg: "falcon/falcon_pear/racoon/policy"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/nodes"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/nodes"
+Gocode pkg: "falcon/falcon_melon"
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "merlin/merlin_server"
+Gocode pkg: "falcon/falcon_melon"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "merlin/merlin_server/control"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_server/control"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "merlin/merlin_server/control"
+Gocode pkg: "merlin/merlin_server/params"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "."
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "."
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear/dispatcher"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "falcon/falcon_pear/listener"
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "falcon/falcon_pear/listener"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "falcon/falcon_pear/listener"
+Gocode pkg: "falcon/falcon_pear/dispatcher"
+Gocode pkg: "falcon/falcon_pear/listener"
+Gocode pkg: "falcon/falcon_pear/dispatcher"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "merlin/merlin_agent/data"
+Gocode pkg: "try"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/nodes"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/coverInfo"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "."
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/graylist"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "github.com/julienschmidt/httprouter"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "github.com/julienschmidt/httprouter"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "."
+Gocode pkg: "try/toml"
+Gocode pkg: "github.com/pelletier/go-toml"
+Gocode pkg: "lib/tomlcfg"
+Gocode pkg: "github.com/pelletier/go-toml"
+Gocode pkg: "lib/tomlcfg"
+Gocode pkg: "github.com/pelletier/go-toml"
+Gocode pkg: "lib/tomlcfg"
+Gocode pkg: "try/toml"
+Gocode pkg: "lib/tomlcfg"
+Gocode pkg: "lib/jsoncfg"
+Gocode pkg: "lib/tomlcfg"
+Gocode pkg: "lib/jsoncfg"
+Gocode pkg: "lib/compress"
+Gocode pkg: "lib/alarm"
+Gocode pkg: "lib/compress"
+Gocode pkg: "github.com/julienschmidt/httprouter"
+Gocode pkg: "github.com/BurntSushi/toml"
+Gocode pkg: "try/toml"
+Gocode pkg: "lib/tomlcfg"
+Gocode pkg: "github.com/pelletier/go-toml"
+Gocode pkg: "try/toml"
+Gocode pkg: "github.com/pelletier/go-toml"
+Gocode pkg: "github.com/BurntSushi/toml"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "try"
+Gocode pkg: "github.com/julienschmidt/httprouter"
+Gocode pkg: "try/httptest"
+Gocode pkg: "try/httprouter"
+Gocode pkg: "try/httptest"
+Gocode pkg: "try/httprouter"
+Gocode pkg: "github.com/julienschmidt/httprouter"
+Gocode pkg: "try/httprouter"
+Gocode pkg: "try"
+Gocode pkg: "try"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+Gocode pkg: "try/httprouter"
+Gocode pkg: "try"
+Gocode pkg: "merlin/merlin_server/baseinfo/policy"
+Gocode pkg: "try"
+Gocode pkg: "."
+Gocode pkg: "try/httprouter"
+Gocode pkg: "."
+Gocode pkg: "try/httprouter"
+Gocode pkg: "."
+Gocode pkg: "merlin/merlin_server/cfg"
+Gocode pkg: "."
+Gocode pkg: "merlin/merlin_server/cfg"
+Gocode pkg: "."
+Gocode pkg: "merlin/merlin_server/cfg"
+Gocode pkg: "."
+Gocode pkg: "try/httprouter"
+Gocode pkg: "."
+Gocode pkg: "try/httprouter"
+Gocode pkg: "."
+Gocode pkg: "try/httprouter"
+Gocode pkg: "."
+Gocode pkg: "try/httprouter"
+Gocode pkg: "."
+Gocode pkg: "try/httprouter"
+Gocode pkg: "."
+Gocode pkg: "merlin/merlin_server/cfg"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+Gocode pkg: "merlin/merlin_server/baseinfo/policy"
+Gocode pkg: "falcon/falcon_apple/syncer"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode pkg: "try/gin"
+Gocode pkg: "github.com/gin-gonic/gin"
+Gocode pkg: "try/gin"
+Gocode pkg: "try/gin"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+Gocode pkg: "try/gin"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+Gocode pkg: "github.com/gin-gonic/gin"
+Gocode pkg: "lib/golog"
+Gocode pkg: "github.com/gin-gonic/gin"
+Gocode pkg: "try/gin"
+Gocode pkg: "try/pgpolicy"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode pkg: "try/pgpolicy"
+Gocode pkg: "try/gin"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode pkg: "falcon/falcon_pear/httpserver"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "merlin/merlin_agent/calc"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/graylist"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/graylist"
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "try/pgpolicy"
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/dnser"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "try/pgpolicy"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/cfg"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/policy"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+Gocode pkg: "falcon/falcon_pear"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "dog/node"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/nodeBaseInfo/syncBandWidth"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "try/pgpolicy"
+Gocode pkg: "falcon/falcon_pear/racoon/policy"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/policy"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "falcon/falcon_pear/racoon/policy"
+Gocode pkg: "try/pgpolicy"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode pkg: "dog/node"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+Gocode pkg: "try/pgpolicy"
+Gocode pkg: "falcon/falcon_pear/racoon/center"
