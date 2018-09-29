@@ -5,28 +5,16 @@
 			"path": "/Users/Terry/wp/todos"
 		},
 		{
-			"path": "/Users/Terry/wp/codes/sogou"
-		},
-		{
 			"path": "/Users/Terry/wp/codes/pigeon"
-		},
-		{
-			"path": "/Users/Terry/wp/codes/ipv6/ipv6_config"
-		},
-		{
-			"path": "/Users/Terry/wp/codes/ipv6/ipv6_agent"
 		},
 		{
 			"path": "/Users/Terry/wp/codes/ipv6"
 		},
 		{
-			"path": "/Users/Terry/wp/codes/eagle"
-		},
-		{
 			"path": "/Users/Terry/wp/codes/bind"
 		},
 		{
-			"path": "/Users/Terry/gopher/src/woody"
+			"path": "/Users/Terry/gopher/src/tuzki"
 		},
 		{
 			"path": "/Users/Terry/gopher/src/try"
@@ -38,46 +26,22 @@
 			"path": "/Users/Terry/gopher/src/merlin"
 		},
 		{
-			"path": "/Users/Terry/gopher/src/lion"
-		},
-		{
 			"path": "/Users/Terry/gopher/src/lib"
 		},
 		{
 			"path": "/Users/Terry/gopher/src/lemonx"
 		},
 		{
-			"path": "/Users/Terry/gopher/src/hooker"
-		},
-		{
-			"path": "/Users/Terry/gopher/src/github.com/julienschmidt/httprouter"
-		},
-		{
-			"path": "/Users/Terry/gopher/src/github.com/gracig/goping"
-		},
-		{
-			"path": "/Users/Terry/gopher/src/github.com/cweill/gotests"
-		},
-		{
-			"path": "/Users/Terry/gopher/src/github.com/BurntSushi/toml"
-		},
-		{
-			"path": "/Users/Terry/gopher/src/feixiang"
+			"path": "/Users/Terry/gopher/src/falcon_monitor"
 		},
 		{
 			"path": "/Users/Terry/gopher/src/falcon"
 		},
 		{
-			"path": "/Users/Terry/gopher/src/donkey"
-		},
-		{
-			"path": "/Users/Terry/gopher/src/dog"
+			"path": "/Users/Terry/gopher/src/eagle"
 		},
 		{
 			"path": "/Users/Terry/gopher/src/bsip"
-		},
-		{
-			"path": "/Users/Terry/gopher/src/bird"
 		},
 		{
 			"path": "/Users/Terry/gopher/src/amend302"

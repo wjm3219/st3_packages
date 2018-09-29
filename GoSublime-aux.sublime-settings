@@ -34,20 +34,24 @@
 	"9o.hist./Users/Terry/gopher/src/try":
 	[
 		"help",
-		"go version",
 		"go run test.go",
 		"go run goping.go",
 		"go run cal.go",
 		"go run highcpu.go",
 		"go run try.go{\"method\": \"get\",\"select\": \"node\", \"params\": \"watch\", \"key\": \"\"}",
 		"go run ip_hex.go",
-		"go run try.go"
+		"go list",
+		"go version",
+		"go run try.go",
+		"echo $GOPATH",
+		"GoSublime r18.07.22-1 9o: type `help` for help and command documentation\n\n[ `go run try.go` | done: 1.624930504s ]\n  2018/09/12 10:28:35 lager\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done: 1.237380682s ]\n  2018/09/12 10:29:56 -1e-05\n  2018/09/12 10:29:56 lager\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done: 1.141179497s ]\n  2018/09/12 10:30:38 -1e-05\n  2018/09/12 10:30:38 lager\n  2018/09/12 10:30:38 true\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done: 1.530112392s ]\n  2018/09/17 13:32:12 2018-09-17 13:31:32 +0800 CST\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done: 1.301532063s ]\n  2018/09/17 13:37:55 2018-09-17 13:31:32 +0800 CST\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done: 1.19822885s ]\n  2018/09/17 13:38:39 2018-09-17 21:31:32 +0800 CST\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done: 715.124745ms ]\n  # command-line-arguments\n  ./try.go:9:2: undefined: t\n  ./try.go:10:14: undefined: t\n  \n  exit status 2\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done: 561.905884ms ]\n  2018/09/17 13:41:28 2006-01-02 15:04:05 +0000 UTC\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done: 407.129979ms ]\n  2018/09/17 13:41:55 2018-09-17 21:04:05 +0000 UTC\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done: 1.128747456s ]\n  2018/09/17 14:33:54 2018-09-17 21:04:05 +0000 UTC\n  2018/09/17 14:33:54 10.2\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done: 1.585855736s ]\n  2018/09/26 11:13:26 map[] 0\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done: 1.296999055s ]\n  2018/09/26 11:53:21 map[] 0\n[ `echo $GOPATH` | done ]\n  /Users/Terry/gopher\n[ `go run try.go -v 2` | done: 1.409751676s ]\n  2018/09/26 11:54:12 map[] 0\n[ ~/gopher/src/try/ ] # go run try.go -v 2",
+		"go run try.go -v 2"
 	],
 	"9o.hist./Users/Terry/gopher/src/try/toml":
 	[
 		"go run toml.go"
 	],
-	"ann": "a18.07.31-1",
+	"ann": "a18.08.22-1",
 	"install_version": "r18.07.22-1",
-	"version": "r18.07.22-1"
+	"version": "r18.08.22-1"
 }
