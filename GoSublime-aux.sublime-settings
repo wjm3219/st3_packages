@@ -14,6 +14,14 @@
 	[
 		"go test 1.go"
 	],
+	"9o.hist./Users/Terry/gopher/src/amend302/pear/citywhitelist":
+	[
+		"echo $GOROOT"
+	],
+	"9o.hist./Users/Terry/gopher/src/amend302/pear/test":
+	[
+		"go run test.go"
+	],
 	"9o.hist./Users/Terry/gopher/src/dnscheck":
 	[
 		"go run dnscheck.go"
@@ -51,7 +59,18 @@
 	[
 		"go run toml.go"
 	],
-	"ann": "a18.08.22-1",
-	"install_version": "r18.07.22-1",
-	"version": "r18.08.22-1"
+	"9o.hist.9o":
+	[
+		"go run toml.go",
+		"go run salt.go",
+		"go version",
+		"python3 calss.python3",
+		"python3 calss.py",
+		"python3 class.py",
+		"python3 halo.py",
+		"go run try.go"
+	],
+	"ann": "a18.11.06-1",
+	"install_version": "r18.11.06-1",
+	"version": "r18.11.06-1"
 }

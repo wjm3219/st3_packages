@@ -7,6 +7,7 @@
 	[
 		"A File Icon",
 		"All Autocomplete",
+		"Anaconda",
 		"Boxy Theme",
 		"BracketHighlighter",
 		"C Improved",
@@ -21,7 +22,6 @@
 		"Git",
 		"GitGutter",
 		"Godef",
-		"GoSublime",
 		"GoTests",
 		"HTML-CSS-JS Prettify",
 		"Lua Dev",
@@ -30,6 +30,7 @@
 		"PackageResourceViewer",
 		"PlainTasks",
 		"Pretty JSON",
+		"Rust Enhanced",
 		"SideBarEnhancements",
 		"SideBarFolders",
 		"SublimeAStyleFormatter",

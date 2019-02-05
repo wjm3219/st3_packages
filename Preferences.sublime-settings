@@ -13,6 +13,7 @@
 	"font_size": 17,
 	"ignored_packages":
 	[
+		"Rust",
 		"Vintage"
 	],
 	"indent_guide_options":
@@ -22,6 +23,10 @@
 	],
 	"line_padding_bottom": 2,
 	"overlay_scroll_bars": "enabled",
+	"rulers":
+	[
+		120
+	],
 	"show_encoding": true,
 	"show_line_endings": true,
 	"tab_size": 4,

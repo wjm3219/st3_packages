@@ -1,6 +1,11 @@
 {
     "python_interpreter": "/usr/local/bin/python3",
     "auto_python_builder_enabled": false,
+    "pep8_max_line_length": 120,
+    "swallow_startup_errors": true,
+    "suppress_word_completions": true,
+    "suppress_explicit_completions": true,
+    "complete_parameters": true,
     "anaconda_linting": true,
     "pep8_ignore":
     [

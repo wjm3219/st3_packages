@@ -5,13 +5,19 @@
 			"path": "/Users/Terry/wp/todos"
 		},
 		{
+			"path": "/Users/Terry/wp/codes/sogou"
+		},
+		{
 			"path": "/Users/Terry/wp/codes/pigeon"
 		},
 		{
-			"path": "/Users/Terry/wp/codes/ipv6"
+			"path": "/Users/Terry/wp/codes/bind"
 		},
 		{
-			"path": "/Users/Terry/wp/codes/bind"
+			"path": "/Users/Terry/terry/rust"
+		},
+		{
+			"path": "/Users/Terry/terry/python"
 		},
 		{
 			"path": "/Users/Terry/gopher/src/tuzki"
@@ -32,6 +38,18 @@
 			"path": "/Users/Terry/gopher/src/lemonx"
 		},
 		{
+			"path": "/Users/Terry/gopher/src/island"
+		},
+		{
+			"path": "/Users/Terry/gopher/src/ipv6"
+		},
+		{
+			"path": "/Users/Terry/gopher/src/github.com/zheng-ji/goHttpDns"
+		},
+		{
+			"path": "/Users/Terry/gopher/src/fox"
+		},
+		{
 			"path": "/Users/Terry/gopher/src/falcon_monitor"
 		},
 		{
@@ -41,10 +59,19 @@
 			"path": "/Users/Terry/gopher/src/eagle"
 		},
 		{
-			"path": "/Users/Terry/gopher/src/bsip"
+			"path": "/Users/Terry/gopher/src/dcommon"
+		},
+		{
+			"path": "/Users/Terry/gopher/src/cyborg"
+		},
+		{
+			"path": "/Users/Terry/gopher/src/beelib"
 		},
 		{
 			"path": "/Users/Terry/gopher/src/amend302"
+		},
+		{
+			"path": "/Users/Terry/gopher/src"
 		}
 	]
 }

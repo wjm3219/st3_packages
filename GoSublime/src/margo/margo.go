@@ -21,7 +21,7 @@ func Margo(m mg.Args) {
 			// Please note, however, that this mode is not tested
 			// and saving a non-go file will not trigger linters, etc. for that go pkg
 			return mx.SetConfig(mx.Config.EnabledForLangs(
-				mg.AllLangs,
+				mg.Go,
 			))
 		}),
 
@@ -38,7 +38,7 @@ func Margo(m mg.Args) {
 		&golang.GoCmd{},
 
 		// add the day and time to the status bar
-		&DayTimeStatus{},
+		// &DayTimeStatus{},
 
 		// both GoFmt and GoImports will automatically disable the GoSublime version
 		// you will need to install the `goimports` tool manually
