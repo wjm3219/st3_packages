@@ -1,5 +1,9 @@
 {
 	"bootstrapped": true,
+	"channels":
+	[
+		"https://raw.githubusercontent.com/HBLong/channel_v3_daily/master/channel_v3.json"
+	],
 	"in_process_packages":
 	[
 	],
@@ -26,6 +30,7 @@
 		"HTML-CSS-JS Prettify",
 		"Lua Dev",
 		"MarkdownPreview",
+		"NeoVintageous",
 		"Package Control",
 		"PackageResourceViewer",
 		"PlainTasks",
@@ -35,7 +40,6 @@
 		"SideBarFolders",
 		"SublimeAStyleFormatter",
 		"Sublimerge 3",
-		"TOML",
-		"Vintageous"
+		"TOML"
 	]
 }
