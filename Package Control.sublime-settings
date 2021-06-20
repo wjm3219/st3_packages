@@ -33,13 +33,16 @@
 		"NeoVintageous",
 		"Package Control",
 		"PackageResourceViewer",
+		"Phpcs",
 		"PlainTasks",
 		"Pretty JSON",
 		"Rust Enhanced",
 		"SideBarEnhancements",
 		"SideBarFolders",
+		"Sourcetrail",
 		"SublimeAStyleFormatter",
 		"Sublimerge 3",
-		"TOML"
+		"TOML",
+		"WakaTime"
 	]
 }

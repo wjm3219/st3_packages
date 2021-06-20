@@ -16,6 +16,7 @@
         "E221",
         "E222",
         "E225",
+        "E128",
         "E226",
         "E227",
         "E228",
@@ -29,6 +30,7 @@
         "E261",
         "E26",
         "E262", //ignore comment space error;
-        "E501"  //ignore max line length error;
+        "E501",  //ignore max line length error;
+        "W391" // ignore final blank row;
     ]
 }

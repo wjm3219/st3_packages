@@ -22881,3 +22881,1365 @@ mg.event:<bound method MargoSingleton.on_pre_save of <GoSublime.gosubl.margo.Mar
     return os.getcwd()
 FileNotFoundError: [Errno 2] No such file or directory
 --------------------------------
+
+** 2019-06-13 22:17:31.590665 **:
+agent#007: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/gsq.py", line 16, in run
+    self.f()
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 236, in _handle_acts
+    self._send_acts()
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 231, in _send_acts
+    self.send(actions=acts, view=view).wait()
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 216, in send
+    rq = AgentReq(self, acts, cb=cb, view=view)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 338, in __init__
+    self.props = make_props(view=view)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_state.py", line 247, in make_props
+    'Env': sh.env(),
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/sh.py", line 329, in env
+    e['GS_GOPATH'] = gs_gopath(gs.getwd(), roots) or gs_gopath(gs.attr('last_active_go_fn', ''), roots)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/gs.py", line 168, in getwd
+    return os.getcwd()
+FileNotFoundError: [Errno 2] No such file or directory
+--------------------------------
+
+** 2019-06-13 22:18:38.190951 **:
+mg.event:<bound method MargoSingleton.on_pre_save of <GoSublime.gosubl.margo.MargoSingleton object at 0x10915dad0>>: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 212, in handle_event
+    return handler(*args)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 353, in on_pre_save
+    return self._fmt_save(view=view, actions=[actions.ViewPreSave], event='pre_save', timeout=2.000)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 356, in _fmt_save
+    rq = self.send(view=view, actions=actions)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 257, in send
+    return self.agent.send(actions=actions, cb=cb, view=view)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 216, in send
+    rq = AgentReq(self, acts, cb=cb, view=view)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 338, in __init__
+    self.props = make_props(view=view)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_state.py", line 247, in make_props
+    'Env': sh.env(),
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/sh.py", line 329, in env
+    e['GS_GOPATH'] = gs_gopath(gs.getwd(), roots) or gs_gopath(gs.attr('last_active_go_fn', ''), roots)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/gs.py", line 168, in getwd
+    return os.getcwd()
+FileNotFoundError: [Errno 2] No such file or directory
+--------------------------------
+
+** 2019-06-13 22:18:39.133577 **:
+mg.event:<bound method MargoSingleton.on_pre_save of <GoSublime.gosubl.margo.MargoSingleton object at 0x10915dad0>>: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 212, in handle_event
+    return handler(*args)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 353, in on_pre_save
+    return self._fmt_save(view=view, actions=[actions.ViewPreSave], event='pre_save', timeout=2.000)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 356, in _fmt_save
+    rq = self.send(view=view, actions=actions)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 257, in send
+    return self.agent.send(actions=actions, cb=cb, view=view)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 216, in send
+    rq = AgentReq(self, acts, cb=cb, view=view)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 338, in __init__
+    self.props = make_props(view=view)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_state.py", line 247, in make_props
+    'Env': sh.env(),
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/sh.py", line 329, in env
+    e['GS_GOPATH'] = gs_gopath(gs.getwd(), roots) or gs_gopath(gs.attr('last_active_go_fn', ''), roots)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/gs.py", line 168, in getwd
+    return os.getcwd()
+FileNotFoundError: [Errno 2] No such file or directory
+--------------------------------
+
+** 2019-06-13 22:18:41.077718 **:
+mg.event:<bound method MargoSingleton.on_pre_save of <GoSublime.gosubl.margo.MargoSingleton object at 0x10915dad0>>: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 212, in handle_event
+    return handler(*args)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 353, in on_pre_save
+    return self._fmt_save(view=view, actions=[actions.ViewPreSave], event='pre_save', timeout=2.000)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 356, in _fmt_save
+    rq = self.send(view=view, actions=actions)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 257, in send
+    return self.agent.send(actions=actions, cb=cb, view=view)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 216, in send
+    rq = AgentReq(self, acts, cb=cb, view=view)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 338, in __init__
+    self.props = make_props(view=view)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_state.py", line 247, in make_props
+    'Env': sh.env(),
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/sh.py", line 329, in env
+    e['GS_GOPATH'] = gs_gopath(gs.getwd(), roots) or gs_gopath(gs.attr('last_active_go_fn', ''), roots)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/gs.py", line 168, in getwd
+    return os.getcwd()
+FileNotFoundError: [Errno 2] No such file or directory
+--------------------------------
+
+** 2019-06-13 22:18:43.013707 **:
+mg.event:<bound method MargoSingleton.on_pre_save of <GoSublime.gosubl.margo.MargoSingleton object at 0x10915dad0>>: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 212, in handle_event
+    return handler(*args)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 353, in on_pre_save
+    return self._fmt_save(view=view, actions=[actions.ViewPreSave], event='pre_save', timeout=2.000)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 356, in _fmt_save
+    rq = self.send(view=view, actions=actions)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 257, in send
+    return self.agent.send(actions=actions, cb=cb, view=view)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 216, in send
+    rq = AgentReq(self, acts, cb=cb, view=view)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 338, in __init__
+    self.props = make_props(view=view)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_state.py", line 247, in make_props
+    'Env': sh.env(),
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/sh.py", line 329, in env
+    e['GS_GOPATH'] = gs_gopath(gs.getwd(), roots) or gs_gopath(gs.attr('last_active_go_fn', ''), roots)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/gs.py", line 168, in getwd
+    return os.getcwd()
+FileNotFoundError: [Errno 2] No such file or directory
+--------------------------------
+
+** 2019-06-13 22:19:07.699434 **:
+mg.event:<bound method MargoSingleton.on_pre_save of <GoSublime.gosubl.margo.MargoSingleton object at 0x10915dad0>>: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 212, in handle_event
+    return handler(*args)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 353, in on_pre_save
+    return self._fmt_save(view=view, actions=[actions.ViewPreSave], event='pre_save', timeout=2.000)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 356, in _fmt_save
+    rq = self.send(view=view, actions=actions)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 257, in send
+    return self.agent.send(actions=actions, cb=cb, view=view)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 216, in send
+    rq = AgentReq(self, acts, cb=cb, view=view)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 338, in __init__
+    self.props = make_props(view=view)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_state.py", line 247, in make_props
+    'Env': sh.env(),
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/sh.py", line 329, in env
+    e['GS_GOPATH'] = gs_gopath(gs.getwd(), roots) or gs_gopath(gs.attr('last_active_go_fn', ''), roots)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/gs.py", line 168, in getwd
+    return os.getcwd()
+FileNotFoundError: [Errno 2] No such file or directory
+--------------------------------
+
+** 2020-06-16 22:56:20.758063 **:
+agent#007: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 288, in _handle_recv
+    self._handle_recv_ipc(v)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 273, in _handle_recv_ipc
+    self._notify_ready()
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 270, in _notify_ready
+    self.mg.agent_ready(self)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 356, in agent_ready
+    self.on_activated(gs.active_view())
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 459, in on_activated
+    self.queue(view=view, actions=[actions.ViewActivated])
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 371, in queue
+    self.agent.queue(actions=actions, view=view, delay=delay)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 206, in queue
+    p = (act, view.id())
+AttributeError: 'NoneType' object has no attribute 'id'
+--------------------------------
+Gocode pkg: "try"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+
+** 2021-03-19 13:32:46.393068 **:
+agent#2478: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 176, in _handle_send_ipc
+    ipc_enc(rq.data(), self.proc.stdin)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/vendor/umsgpack.py", line 527, in _pack3
+    _pack_map(obj, fp, options)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/vendor/umsgpack.py", line 395, in _pack_map
+    pack(v, fp, **options)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/vendor/umsgpack.py", line 527, in _pack3
+    _pack_map(obj, fp, options)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/vendor/umsgpack.py", line 395, in _pack_map
+    pack(v, fp, **options)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/vendor/umsgpack.py", line 527, in _pack3
+    _pack_map(obj, fp, options)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/vendor/umsgpack.py", line 394, in _pack_map
+    pack(k, fp, **options)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/vendor/umsgpack.py", line 521, in _pack3
+    _pack_string(obj, fp, options)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/vendor/umsgpack.py", line 289, in _pack_string
+    fp.write(struct.pack("B", 0xa0 | len(obj)) + obj)
+BrokenPipeError: [Errno 32] Broken pipe
+--------------------------------
+Gocode pkg: "observer/actions/configure/schedulelist"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+margo: 2021/03/29 11:05:17 broker.go:105: gocode_complete#mg9.autoken.8417d3a4-7c2e-4880-8e56-8f0db219defe PANIC: One of the package cache updaters panicked
+goroutine 26 [running]:
+gosublime/cmd/margo_pkg.(*Broker).call.func1(0xc000064160, 0xc0000fbea0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:104 +0xc5
+panic(0x140f9c0, 0x1518730)
+	/Users/Terry/gopher/go/src/runtime/panic.go:965 +0x1b9
+gosublime/something-borrowed/gocode.update_packages(0xc00071f808)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:463 +0x1a5
+gosublime/something-borrowed/gocode.(*auto_complete_context).update_caches(0xc0000a2a40)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:178 +0x1ac
+gosublime/something-borrowed/gocode.(*auto_complete_context).apropos(0xc0000a2a40, 0xc000267200, 0xc35, 0xc80, 0xc000028230, 0x48, 0x201, 0x1, 0x1, 0xc000028230, ...)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:360 +0x17d
+gosublime/something-borrowed/gocode.(*margoState).Complete(0xc0000e60b0, 0x0, 0x0, 0x0, 0xc000192030, 0x16, 0xc000180040, 0x1, 0x1, 0xc000267200, ...)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/bridge._margo_.go:80 +0x14d
+gosublime/cmd/margo_pkg.(*mGocode).completions(0xc0002b6000, 0xc000267200, 0xc35, 0xc80, 0xc000028230, 0x48, 0x201, 0xc00004adf8, 0x100d89b, 0xc00008cba0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/m_gocode.go:95 +0x153
+gosublime/cmd/margo_pkg.(*mGocode).Call(0xc0002b6000, 0x5, 0x1006625, 0xc00008cba0, 0xc000066478)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/m_gocode.go:76 +0x285
+gosublime/cmd/margo_pkg.(*Broker).call(0xc0000fbea0, 0xc000064160, 0x151fd80, 0xc0002b6000)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:113 +0xac
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0000fbea0, 0xc00002a5c0, 0xc000066420)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:188 +0x99
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 1 [syscall]:
+syscall.syscall(0x10c3480, 0x0, 0xc00021c000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/runtime/sys_darwin.go:19 +0x2e
+syscall.read(0x0, 0xc00021c000, 0x1000, 0x1000, 0x0, 0x1e1dba8, 0x1e1dba8)
+	/Users/Terry/gopher/go/src/syscall/zsyscall_darwin_amd64.go:1242 +0x66
+syscall.Read(...)
+	/Users/Terry/gopher/go/src/syscall/syscall_unix.go:187
+internal/poll.ignoringEINTRIO(...)
+	/Users/Terry/gopher/go/src/internal/poll/fd_unix.go:581
+internal/poll.(*FD).Read(0xc000066060, 0xc00021c000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/internal/poll/fd_unix.go:162 +0x145
+os.(*File).read(...)
+	/Users/Terry/gopher/go/src/os/file_posix.go:31
+os.(*File).Read(0xc00000e010, 0xc00021c000, 0x1000, 0x1000, 0xc0002b6000, 0x147e180, 0xc00012cef5)
+	/Users/Terry/gopher/go/src/os/file.go:117 +0x77
+bufio.(*Reader).fill(0xc00008c9c0)
+	/Users/Terry/gopher/go/src/bufio/bufio.go:101 +0x108
+bufio.(*Reader).ReadSlice(0xc00008c9c0, 0xc00017a30a, 0xa, 0x1, 0xc00009ba38, 0xc00009ba10, 0x1005cd5)
+	/Users/Terry/gopher/go/src/bufio/bufio.go:360 +0x3d
+bufio.(*Reader).collectFragments(0xc00008c9c0, 0xc00008cb0a, 0xc00009bbe8, 0xc00009bab8, 0x3, 0xc00017a3a0, 0x0, 0xa, 0xc000066478, 0xc0002b6000, ...)
+	/Users/Terry/gopher/go/src/bufio/bufio.go:435 +0x7a
+bufio.(*Reader).ReadBytes(0xc00008c9c0, 0xc00009bb0a, 0xc0002b6000, 0x0, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/bufio/bufio.go:463 +0x4c
+gosublime/cmd/margo_pkg.(*Broker).accept(0xc0000fbea0, 0xc000066420, 0xc0000fbe00)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:128 +0x4c
+gosublime/cmd/margo_pkg.(*Broker).Loop(0xc0000fbea0, 0x14b0001)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:213 +0x154
+gosublime/cmd/margo_pkg.Main()
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:140 +0x5fe
+main.main()
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo/main.go:8 +0x25
+
+goroutine 17 [runnable]:
+syscall.ByteSliceFromString(...)
+	/Users/Terry/gopher/go/src/syscall/syscall.go:53
+syscall.BytePtrFromString(...)
+	/Users/Terry/gopher/go/src/syscall/syscall.go:69
+syscall.Open(0xc00029c1c0, 0x31, 0x1000000, 0xc000000000, 0x1005d75, 0x103a1fc, 0xc000591e00)
+	/Users/Terry/gopher/go/src/syscall/zsyscall_darwin_amd64.go:1151 +0x1c5
+os.openFileNolog(0xc00029c1c0, 0x31, 0x0, 0xc000000000, 0xc000591ee0, 0x10067f5, 0xc0000c8180)
+	/Users/Terry/gopher/go/src/os/file_unix.go:216 +0xb3
+os.OpenFile(0xc00029c1c0, 0x31, 0x0, 0x0, 0x0, 0xc00019e3b8, 0xc0000c81d8)
+	/Users/Terry/gopher/go/src/os/file.go:331 +0x65
+os.Open(...)
+	/Users/Terry/gopher/go/src/os/file.go:311
+os.ReadFile(0xc00029c1c0, 0x31, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/os/file.go:652 +0x8e
+io/ioutil.ReadFile(...)
+	/Users/Terry/gopher/go/src/io/ioutil/ioutil.go:37
+gosublime/something-borrowed/gocode.new_file_reader.func1(0xc00009e0f0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:230 +0x93
+created by gosublime/something-borrowed/gocode.new_file_reader
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:226 +0x87
+
+goroutine 18 [chan receive]:
+gosublime/cmd/margo_pkg.init.1.func1()
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/g_autoinst.go:114 +0xcb
+created by gosublime/cmd/margo_pkg.init.1
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/g_autoinst.go:113 +0x35
+
+goroutine 19 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/Users/Terry/gopher/go/src/runtime/time.go:193 +0xd2
+gosublime/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/oom.go:31 +0x9a
+created by gosublime/cmd/margo_pkg.startOomKiller
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/oom.go:10 +0x3f
+
+goroutine 20 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/Users/Terry/gopher/go/src/runtime/time.go:193 +0xd2
+gosublime/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc0000fbea0, 0xc0000a0860)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:122 +0xd6
+created by gosublime/cmd/margo_pkg.Main
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:120 +0x725
+
+goroutine 21 [chan receive]:
+gosublime/cmd/margo_pkg.Main.func2(0xc0000fbea0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:135 +0x125
+created by gosublime/cmd/margo_pkg.Main
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:134 +0x5ce
+
+goroutine 23 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0000fbea0, 0xc00002a5c0, 0xc000066420)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 24 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0000fbea0, 0xc00002a5c0, 0xc000066420)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 25 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0000fbea0, 0xc00002a5c0, 0xc000066420)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 27 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0000fbea0, 0xc00002a5c0, 0xc000066420)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 28 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0000fbea0, 0xc00002a5c0, 0xc000066420)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 29 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0000fbea0, 0xc00002a5c0, 0xc000066420)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 30 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0000fbea0, 0xc00002a5c0, 0xc000066420)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 31 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0000fbea0, 0xc00002a5c0, 0xc000066420)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 32 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0000fbea0, 0xc00002a5c0, 0xc000066420)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 33 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0000fbea0, 0xc00002a5c0, 0xc000066420)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 34 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0000fbea0, 0xc00002a5c0, 0xc000066420)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 35 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0000fbea0, 0xc00002a5c0, 0xc000066420)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 36 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0000fbea0, 0xc00002a5c0, 0xc000066420)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 37 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0000fbea0, 0xc00002a5c0, 0xc000066420)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 38 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0000fbea0, 0xc00002a5c0, 0xc000066420)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 39 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0000fbea0, 0xc00002a5c0, 0xc000066420)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 40 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0000fbea0, 0xc00002a5c0, 0xc000066420)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 41 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0000fbea0, 0xc00002a5c0, 0xc000066420)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 42 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0000fbea0, 0xc00002a5c0, 0xc000066420)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 47 [chan send]:
+gosublime/something-borrowed/gocode.update_packages.func1.1(0xc000073aa0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:452 +0x6f
+panic(0x141df20, 0xc0004981e0)
+	/Users/Terry/gopher/go/src/runtime/panic.go:965 +0x1b9
+gosublime/something-borrowed/gocode.(*gc_bin_parser).parse_export(0xc000594000, 0xc0002d6a20)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package_bin.go:126 +0xba6
+gosublime/something-borrowed/gocode.(*package_file_cache).process_package_data(0xc00079a960, 0xc000800000, 0xd82e4, 0xd82e5)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:132 +0x4d2
+gosublime/something-borrowed/gocode.(*package_file_cache).update_cache(0xc00079a960)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:92 +0x205
+gosublime/something-borrowed/gocode.update_packages.func1(0xc000073aa0, 0xc00079a960)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:455 +0x57
+created by gosublime/something-borrowed/gocode.update_packages
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:448 +0xcb
+
+goroutine 48 [chan receive]:
+gosublime/something-borrowed/gocode.(*file_reader_type).read_file(...)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:243
+gosublime/something-borrowed/gocode.(*package_file_cache).update_cache(0xc00079aa00)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:88 +0x19f
+gosublime/something-borrowed/gocode.update_packages.func1(0xc000073aa0, 0xc00079aa00)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:455 +0x57
+created by gosublime/something-borrowed/gocode.update_packages
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:448 +0xcb
+
+goroutine 81 [chan send]:
+gosublime/something-borrowed/gocode.update_packages.func1.1(0xc000073aa0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:452 +0x6f
+panic(0x141df20, 0xc000298060)
+	/Users/Terry/gopher/go/src/runtime/panic.go:965 +0x1b9
+gosublime/something-borrowed/gocode.(*gc_bin_parser).parse_export(0xc0007380e0, 0xc000732060)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package_bin.go:126 +0xba6
+gosublime/something-borrowed/gocode.(*package_file_cache).process_package_data(0xc00079aa50, 0xc0008da000, 0x7a894, 0x7a895)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:132 +0x4d2
+gosublime/something-borrowed/gocode.(*package_file_cache).update_cache(0xc00079aa50)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:92 +0x205
+gosublime/something-borrowed/gocode.update_packages.func1(0xc000073aa0, 0xc00079aa50)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:455 +0x57
+created by gosublime/something-borrowed/gocode.update_packages
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:448 +0xcb
+
+goroutine 82 [chan send]:
+gosublime/something-borrowed/gocode.(*file_reader_type).read_file(...)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:242
+gosublime/something-borrowed/gocode.(*package_file_cache).update_cache(0xc00079aaa0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:88 +0x165
+gosublime/something-borrowed/gocode.update_packages.func1(0xc000073aa0, 0xc00079aaa0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:455 +0x57
+created by gosublime/something-borrowed/gocode.update_packages
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:448 +0xcb
+
+goroutine 83 [chan send]:
+gosublime/something-borrowed/gocode.(*file_reader_type).read_file(...)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:242
+gosublime/something-borrowed/gocode.(*package_file_cache).update_cache(0xc000195220)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:88 +0x165
+gosublime/something-borrowed/gocode.update_packages.func1(0xc000073aa0, 0xc000195220)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:455 +0x57
+created by gosublime/something-borrowed/gocode.update_packages
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:448 +0xcb
+
+goroutine 84 [chan send]:
+gosublime/something-borrowed/gocode.(*file_reader_type).read_file(...)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:242
+gosublime/something-borrowed/gocode.(*package_file_cache).update_cache(0xc000195270)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:88 +0x165
+gosublime/something-borrowed/gocode.update_packages.func1(0xc000073aa0, 0xc000195270)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:455 +0x57
+created by gosublime/something-borrowed/gocode.update_packages
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:448 +0xcb
+
+goroutine 86 [chan send]:
+gosublime/something-borrowed/gocode.(*file_reader_type).read_file(...)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:242
+gosublime/something-borrowed/gocode.(*package_file_cache).update_cache(0xc000195310)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:88 +0x165
+gosublime/something-borrowed/gocode.update_packages.func1(0xc000073aa0, 0xc000195310)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:455 +0x57
+created by gosublime/something-borrowed/gocode.update_packages
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:448 +0xcb
+
+goroutine 87 [chan send]:
+gosublime/something-borrowed/gocode.(*file_reader_type).read_file(...)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:242
+gosublime/something-borrowed/gocode.(*package_file_cache).update_cache(0xc00079a910)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:88 +0x165
+gosublime/something-borrowed/gocode.update_packages.func1(0xc000073aa0, 0xc00079a910)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:455 +0x57
+created by gosublime/something-borrowed/gocode.update_packages
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:448 +0xcb
+
+goroutine 88 [runnable]:
+gosublime/something-borrowed/gocode.(*gc_bin_parser).parse_export(0xc000738000, 0xc000732040)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package_bin.go:126 +0xa3c
+gosublime/something-borrowed/gocode.(*package_file_cache).process_package_data(0xc00079a9b0, 0xc000258000, 0xb2b6, 0xb2b7)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:132 +0x4d2
+gosublime/something-borrowed/gocode.(*package_file_cache).update_cache(0xc00079a9b0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:92 +0x205
+gosublime/something-borrowed/gocode.update_packages.func1(0xc000073aa0, 0xc00079a9b0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:455 +0x57
+created by gosublime/something-borrowed/gocode.update_packages
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:448 +0xcb
+
+
+
+** 2021-03-29 11:05:17.657328 **:
+GsComplete: broker: gocode_complete#mg9.autoken.8417d3a4-7c2e-4880-8e56-8f0db219defe PANIC
+--------------------------------
+Gocode pkg: "observer/baseinfo"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Terry/gopher/go/pkg/darwin_amd64:/Users/Terry/gopher/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Terry/gopher/go", GOPATH:"/Users/Terry/gopher", InstallSuffix:""}
+margo: 2021/03/29 13:11:43 broker.go:105: gocode_complete#mg9.autoken.41c916f3-eb92-4871-b8ed-e7c6a9addbd6 PANIC: One of the package cache updaters panicked
+goroutine 13 [running]:
+gosublime/cmd/margo_pkg.(*Broker).call.func1(0xc000062ee0, 0xc0002c3f10)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:104 +0xc5
+panic(0x140f9c0, 0x1518730)
+	/Users/Terry/gopher/go/src/runtime/panic.go:965 +0x1b9
+gosublime/something-borrowed/gocode.update_packages(0xc0006a7808)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:463 +0x1a5
+gosublime/something-borrowed/gocode.(*auto_complete_context).update_caches(0xc000030a40)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:178 +0x1ac
+gosublime/something-borrowed/gocode.(*auto_complete_context).apropos(0xc000030a40, 0xc0000eaa00, 0x14cd, 0x1500, 0xc000020500, 0x35, 0xb74, 0x1, 0x1, 0xc000020500, ...)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:360 +0x17d
+gosublime/something-borrowed/gocode.(*margoState).Complete(0xc0002ae0b0, 0x0, 0x0, 0x0, 0xc0000240d8, 0x16, 0xc000060680, 0x1, 0x1, 0xc0000eaa00, ...)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/bridge._margo_.go:80 +0x14d
+gosublime/cmd/margo_pkg.(*mGocode).completions(0xc000294700, 0xc0000eaa00, 0x14cd, 0x1500, 0xc000020500, 0x35, 0xb74, 0xc0000485f8, 0x100d89b, 0xc0000ba420)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/m_gocode.go:95 +0x153
+gosublime/cmd/margo_pkg.(*mGocode).Call(0xc000294700, 0x1, 0x1006625, 0xc0000ba420, 0xc000064ad8)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/m_gocode.go:76 +0x285
+gosublime/cmd/margo_pkg.(*Broker).call(0xc0002c3f10, 0xc000062ee0, 0x151fd80, 0xc000294700)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:113 +0xac
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:188 +0x99
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 1 [syscall]:
+syscall.syscall(0x10c3480, 0x0, 0xc0002e4000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/runtime/sys_darwin.go:19 +0x2e
+syscall.read(0x0, 0xc0002e4000, 0x1000, 0x1000, 0x0, 0x1e1ddc8, 0x1e1ddc8)
+	/Users/Terry/gopher/go/src/syscall/zsyscall_darwin_amd64.go:1242 +0x66
+syscall.Read(...)
+	/Users/Terry/gopher/go/src/syscall/syscall_unix.go:187
+internal/poll.ignoringEINTRIO(...)
+	/Users/Terry/gopher/go/src/internal/poll/fd_unix.go:581
+internal/poll.(*FD).Read(0xc0000ba000, 0xc0002e4000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/internal/poll/fd_unix.go:162 +0x145
+os.(*File).read(...)
+	/Users/Terry/gopher/go/src/os/file_posix.go:31
+os.(*File).Read(0xc0000b8000, 0xc0002e4000, 0x1000, 0x1000, 0xc000294700, 0x147e180, 0xc0000b384f)
+	/Users/Terry/gopher/go/src/os/file.go:117 +0x77
+bufio.(*Reader).fill(0xc0000649c0)
+	/Users/Terry/gopher/go/src/bufio/bufio.go:101 +0x108
+bufio.(*Reader).ReadSlice(0xc0000649c0, 0xc0000dc70a, 0xa, 0x1, 0xc000077a38, 0xc000077a10, 0x1005cd5)
+	/Users/Terry/gopher/go/src/bufio/bufio.go:360 +0x3d
+bufio.(*Reader).collectFragments(0xc0000649c0, 0xc0000ba40a, 0xc000077be8, 0xc000077ab8, 0x3, 0xc0000dc7c0, 0x0, 0xa, 0xc000064ad8, 0xc000294700, ...)
+	/Users/Terry/gopher/go/src/bufio/bufio.go:435 +0x7a
+bufio.(*Reader).ReadBytes(0xc0000649c0, 0xc000077b0a, 0xc000294700, 0x0, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/bufio/bufio.go:463 +0x4c
+gosublime/cmd/margo_pkg.(*Broker).accept(0xc0002c3f10, 0xc000064a80, 0xc0002c3f00)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:128 +0x4c
+gosublime/cmd/margo_pkg.(*Broker).Loop(0xc0002c3f10, 0x14b0001)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:213 +0x154
+gosublime/cmd/margo_pkg.Main()
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:140 +0x5fe
+main.main()
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo/main.go:8 +0x25
+
+goroutine 5 [syscall]:
+syscall.syscall(0x10c3480, 0x6, 0xc004ac2000, 0x66be03, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/runtime/sys_darwin.go:19 +0x2e
+syscall.read(0x6, 0xc004ac2000, 0x66be03, 0x66be03, 0x0, 0xc000714e38, 0x100d9d5)
+	/Users/Terry/gopher/go/src/syscall/zsyscall_darwin_amd64.go:1242 +0x66
+syscall.Read(...)
+	/Users/Terry/gopher/go/src/syscall/syscall_unix.go:187
+internal/poll.ignoringEINTRIO(...)
+	/Users/Terry/gopher/go/src/internal/poll/fd_unix.go:581
+internal/poll.(*FD).Read(0xc00022c1e0, 0xc004ac2000, 0x66be03, 0x66be03, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/internal/poll/fd_unix.go:162 +0x145
+os.(*File).read(...)
+	/Users/Terry/gopher/go/src/os/file_posix.go:31
+os.(*File).Read(0xc00000e008, 0xc004ac2000, 0x66be03, 0x66be03, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/os/file.go:117 +0x77
+os.ReadFile(0xc000510300, 0x32, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/os/file.go:681 +0x1b1
+io/ioutil.ReadFile(...)
+	/Users/Terry/gopher/go/src/io/ioutil/ioutil.go:37
+gosublime/something-borrowed/gocode.new_file_reader.func1(0xc00000e108)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:230 +0x93
+created by gosublime/something-borrowed/gocode.new_file_reader
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:226 +0x87
+
+goroutine 6 [chan receive]:
+gosublime/cmd/margo_pkg.init.1.func1()
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/g_autoinst.go:114 +0xcb
+created by gosublime/cmd/margo_pkg.init.1
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/g_autoinst.go:113 +0x35
+
+goroutine 7 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/Users/Terry/gopher/go/src/runtime/time.go:193 +0xd2
+gosublime/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/oom.go:31 +0x9a
+created by gosublime/cmd/margo_pkg.startOomKiller
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/oom.go:10 +0x3f
+
+goroutine 8 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/Users/Terry/gopher/go/src/runtime/time.go:193 +0xd2
+gosublime/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc0002c3f10, 0xc0000268e0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:122 +0xd6
+created by gosublime/cmd/margo_pkg.Main
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:120 +0x725
+
+goroutine 9 [chan receive]:
+gosublime/cmd/margo_pkg.Main.func2(0xc0002c3f10)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:135 +0x125
+created by gosublime/cmd/margo_pkg.Main
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:134 +0x5ce
+
+goroutine 11 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 12 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 14 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 15 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 16 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 33 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 34 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 35 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 36 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 37 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 38 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 39 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 40 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 41 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 42 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 43 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 44 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 45 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 46 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 48 [chan receive]:
+gosublime/something-borrowed/gocode.(*file_reader_type).read_file(...)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:243
+gosublime/something-borrowed/gocode.(*package_file_cache).update_cache(0xc000492a00)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:88 +0x19f
+gosublime/something-borrowed/gocode.update_packages.func1(0xc0004aa4e0, 0xc000492a00)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:455 +0x57
+created by gosublime/something-borrowed/gocode.update_packages
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:448 +0xcb
+
+goroutine 97 [chan send]:
+gosublime/something-borrowed/gocode.update_packages.func1.1(0xc0004aa4e0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:452 +0x6f
+panic(0x141df20, 0xc000206050)
+	/Users/Terry/gopher/go/src/runtime/panic.go:965 +0x1b9
+gosublime/something-borrowed/gocode.(*gc_bin_parser).parse_export(0xc0000e62a0, 0xc0004b2020)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package_bin.go:126 +0xba6
+gosublime/something-borrowed/gocode.(*package_file_cache).process_package_data(0xc00078c000, 0xc000268000, 0xb2b6, 0xb2b7)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:132 +0x4d2
+gosublime/something-borrowed/gocode.(*package_file_cache).update_cache(0xc00078c000)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:92 +0x205
+gosublime/something-borrowed/gocode.update_packages.func1(0xc0004aa4e0, 0xc00078c000)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:455 +0x57
+created by gosublime/something-borrowed/gocode.update_packages
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:448 +0xcb
+
+goroutine 98 [semacquire]:
+sync.runtime_SemacquireMutex(0x1774f14, 0x2200000000, 0x1)
+	/Users/Terry/gopher/go/src/runtime/sema.go:71 +0x47
+sync.(*Mutex).lockSlow(0x1774f10)
+	/Users/Terry/gopher/go/src/sync/mutex.go:138 +0x105
+sync.(*Mutex).Lock(...)
+	/Users/Terry/gopher/go/src/sync/mutex.go:81
+gosublime/something-borrowed/gocode.print_backtrace(0x141df20, 0xc000096470)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:185 +0x374
+gosublime/something-borrowed/gocode.update_packages.func1.1(0xc0004aa4e0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:451 +0x55
+panic(0x141df20, 0xc000096470)
+	/Users/Terry/gopher/go/src/runtime/panic.go:965 +0x1b9
+gosublime/something-borrowed/gocode.(*gc_bin_parser).parse_export(0xc0005c2000, 0xc00069c020)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package_bin.go:126 +0xba6
+gosublime/something-borrowed/gocode.(*package_file_cache).process_package_data(0xc00078c050, 0xc00098a000, 0xbafa0, 0xbafa1)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:132 +0x4d2
+gosublime/something-borrowed/gocode.(*package_file_cache).update_cache(0xc00078c050)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:92 +0x205
+gosublime/something-borrowed/gocode.update_packages.func1(0xc0004aa4e0, 0xc00078c050)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:455 +0x57
+created by gosublime/something-borrowed/gocode.update_packages
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:448 +0xcb
+
+goroutine 99 [runnable]:
+fmt.(*pp).fmtInteger(0xc0005c0000, 0x3c5, 0x6400000001)
+	/Users/Terry/gopher/go/src/fmt/print.go:379 +0x200
+fmt.(*pp).printArg(0xc0005c0000, 0x140f080, 0xc0000b6258, 0x64)
+	/Users/Terry/gopher/go/src/fmt/print.go:672 +0x94b
+fmt.(*pp).doPrintf(0xc0005c0000, 0x149dd98, 0xe, 0xc0005499e0, 0x4, 0x4)
+	/Users/Terry/gopher/go/src/fmt/print.go:1026 +0x168
+fmt.Fprintf(0x1520380, 0xc0000b8008, 0x149dd98, 0xe, 0xc0005499e0, 0x4, 0x4, 0x22c, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/fmt/print.go:204 +0x72
+fmt.Printf(...)
+	/Users/Terry/gopher/go/src/fmt/print.go:213
+gosublime/something-borrowed/gocode.print_backtrace(0x141df20, 0xc000060060)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:195 +0x2a5
+gosublime/something-borrowed/gocode.update_packages.func1.1(0xc0004aa4e0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:451 +0x55
+panic(0x141df20, 0xc000060060)
+	/Users/Terry/gopher/go/src/runtime/panic.go:965 +0x1b9
+gosublime/something-borrowed/gocode.(*gc_bin_parser).parse_export(0xc0006bc000, 0xc0005b4020)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package_bin.go:126 +0xba6
+gosublime/something-borrowed/gocode.(*package_file_cache).process_package_data(0xc00078c0a0, 0xc000a46000, 0x7a894, 0x7a895)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:132 +0x4d2
+gosublime/something-borrowed/gocode.(*package_file_cache).update_cache(0xc00078c0a0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:92 +0x205
+gosublime/something-borrowed/gocode.update_packages.func1(0xc0004aa4e0, 0xc00078c0a0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:455 +0x57
+created by gosublime/something-borrowed/gocode.update_packages
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:448 +0xcb
+
+
+
+** 2021-03-29 13:11:43.935973 **:
+GsComplete: broker: gocode_complete#mg9.autoken.41c916f3-eb92-4871-b8ed-e7c6a9addbd6 PANIC
+--------------------------------
+Gocode pkg: "observer/actions/configure/schedulelist"
+margo: 2021/03/29 23:32:46 broker.go:105: gocode_complete#mg9.autoken.433950cf-2ea9-472c-afcd-86b10236a8b9 PANIC: One of the package cache updaters panicked
+goroutine 43 [running]:
+gosublime/cmd/margo_pkg.(*Broker).call.func1(0xc0008101e0, 0xc0002c3f10)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:104 +0xc5
+panic(0x140f9c0, 0x1518730)
+	/Users/Terry/gopher/go/src/runtime/panic.go:965 +0x1b9
+gosublime/something-borrowed/gocode.update_packages(0xc0009fb808)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:463 +0x1a5
+gosublime/something-borrowed/gocode.(*auto_complete_context).update_caches(0xc000030a40)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:178 +0x1ac
+gosublime/something-borrowed/gocode.(*auto_complete_context).apropos(0xc000030a40, 0xc0001bb000, 0x3758, 0x3800, 0xc0001560f0, 0x4a, 0x1f35, 0x1, 0x1, 0xc0001560f0, ...)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:360 +0x17d
+gosublime/something-borrowed/gocode.(*margoState).Complete(0xc0002ae0b0, 0x0, 0x0, 0x0, 0xc0005922b8, 0x16, 0xc000612050, 0x1, 0x1, 0xc0001bb000, ...)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/bridge._margo_.go:80 +0x14d
+gosublime/cmd/margo_pkg.(*mGocode).completions(0xc00021e100, 0xc0001bb000, 0x3758, 0x3800, 0xc0001560f0, 0x4a, 0x1f35, 0x13d66e5, 0xc000717e90, 0x0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/m_gocode.go:95 +0x153
+gosublime/cmd/margo_pkg.(*mGocode).Call(0xc00021e100, 0x38, 0x1006625, 0xc0000ba9c0, 0xc000064ad8)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/m_gocode.go:76 +0x285
+gosublime/cmd/margo_pkg.(*Broker).call(0xc0002c3f10, 0xc0008101e0, 0x151fd80, 0xc00021e100)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:113 +0xac
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:188 +0x99
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 1 [syscall]:
+syscall.syscall(0x10c3480, 0x0, 0xc0002e4000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/runtime/sys_darwin.go:19 +0x2e
+syscall.read(0x0, 0xc0002e4000, 0x1000, 0x1000, 0x0, 0x2a183da8, 0x2a183da8)
+	/Users/Terry/gopher/go/src/syscall/zsyscall_darwin_amd64.go:1242 +0x66
+syscall.Read(...)
+	/Users/Terry/gopher/go/src/syscall/syscall_unix.go:187
+internal/poll.ignoringEINTRIO(...)
+	/Users/Terry/gopher/go/src/internal/poll/fd_unix.go:581
+internal/poll.(*FD).Read(0xc0000ba000, 0xc0002e4000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/internal/poll/fd_unix.go:162 +0x145
+os.(*File).read(...)
+	/Users/Terry/gopher/go/src/os/file_posix.go:31
+os.(*File).Read(0xc0000b8000, 0xc0002e4000, 0x1000, 0x1000, 0xc00021e100, 0x147e180, 0xc0001d9e71)
+	/Users/Terry/gopher/go/src/os/file.go:117 +0x77
+bufio.(*Reader).fill(0xc0000649c0)
+	/Users/Terry/gopher/go/src/bufio/bufio.go:101 +0x108
+bufio.(*Reader).ReadSlice(0xc0000649c0, 0xc00016e00a, 0xa, 0x1, 0xc0006a9a38, 0xc0006a9a10, 0x1005cd5)
+	/Users/Terry/gopher/go/src/bufio/bufio.go:360 +0x3d
+bufio.(*Reader).collectFragments(0xc0000649c0, 0xc0000ba90a, 0xc0006a9be8, 0xc0006a9ab8, 0x3, 0xc00016e0e0, 0x0, 0xa, 0xc000064ad8, 0xc00021e100, ...)
+	/Users/Terry/gopher/go/src/bufio/bufio.go:435 +0x7a
+bufio.(*Reader).ReadBytes(0xc0000649c0, 0xc0006a9b0a, 0xc00021e100, 0x0, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/bufio/bufio.go:463 +0x4c
+gosublime/cmd/margo_pkg.(*Broker).accept(0xc0002c3f10, 0xc000064a80, 0xc0002c3f00)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:128 +0x4c
+gosublime/cmd/margo_pkg.(*Broker).Loop(0xc0002c3f10, 0x14b0001)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:213 +0x154
+gosublime/cmd/margo_pkg.Main()
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:140 +0x5fe
+main.main()
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo/main.go:8 +0x25
+
+goroutine 5 [syscall]:
+syscall.syscall(0x10c3480, 0x6, 0xc004ada000, 0x834e7, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/runtime/sys_darwin.go:19 +0x2e
+syscall.read(0x6, 0xc004ada000, 0x834e7, 0x834e7, 0x0, 0xc000714e38, 0x100d9d5)
+	/Users/Terry/gopher/go/src/syscall/zsyscall_darwin_amd64.go:1242 +0x66
+syscall.Read(...)
+	/Users/Terry/gopher/go/src/syscall/syscall_unix.go:187
+internal/poll.ignoringEINTRIO(...)
+	/Users/Terry/gopher/go/src/internal/poll/fd_unix.go:581
+internal/poll.(*FD).Read(0xc000800600, 0xc004ada000, 0x834e7, 0x834e7, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/internal/poll/fd_unix.go:162 +0x145
+os.(*File).read(...)
+	/Users/Terry/gopher/go/src/os/file_posix.go:31
+os.(*File).Read(0xc000694020, 0xc004ada000, 0x834e7, 0x834e7, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/os/file.go:117 +0x77
+os.ReadFile(0xc000796740, 0x31, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/Terry/gopher/go/src/os/file.go:681 +0x1b1
+io/ioutil.ReadFile(...)
+	/Users/Terry/gopher/go/src/io/ioutil/ioutil.go:37
+gosublime/something-borrowed/gocode.new_file_reader.func1(0xc00000e108)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:230 +0x93
+created by gosublime/something-borrowed/gocode.new_file_reader
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:226 +0x87
+
+goroutine 6 [chan receive, 429 minutes]:
+gosublime/cmd/margo_pkg.init.1.func1()
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/g_autoinst.go:114 +0xcb
+created by gosublime/cmd/margo_pkg.init.1
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/g_autoinst.go:113 +0x35
+
+goroutine 7 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/Users/Terry/gopher/go/src/runtime/time.go:193 +0xd2
+gosublime/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/oom.go:31 +0x9a
+created by gosublime/cmd/margo_pkg.startOomKiller
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/oom.go:10 +0x3f
+
+goroutine 8 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/Users/Terry/gopher/go/src/runtime/time.go:193 +0xd2
+gosublime/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc0002c3f10, 0xc0000268e0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:122 +0xd6
+created by gosublime/cmd/margo_pkg.Main
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:120 +0x725
+
+goroutine 9 [chan receive, 429 minutes]:
+gosublime/cmd/margo_pkg.Main.func2(0xc0002c3f10)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:135 +0x125
+created by gosublime/cmd/margo_pkg.Main
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:134 +0x5ce
+
+goroutine 11 [chan receive, 424 minutes]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 12 [chan receive, 424 minutes]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 13 [chan receive, 424 minutes]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 14 [chan receive, 423 minutes]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 15 [chan receive, 423 minutes]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 16 [chan receive, 423 minutes]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 33 [chan receive, 423 minutes]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 34 [chan receive, 423 minutes]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 35 [chan receive, 423 minutes]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 36 [chan receive, 423 minutes]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 37 [chan receive, 424 minutes]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 38 [chan receive, 423 minutes]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 39 [chan receive, 2 minutes]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 40 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 41 [chan receive, 423 minutes]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 42 [chan receive, 424 minutes]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 44 [chan receive, 424 minutes]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 45 [chan receive, 424 minutes]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 46 [chan receive, 424 minutes]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc0002c3f10, 0xc000026950, 0xc000064a80)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb1
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x110
+
+goroutine 48 [chan send, 429 minutes]:
+gosublime/something-borrowed/gocode.update_packages.func1.1(0xc0004aa4e0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:452 +0x6f
+panic(0x141df20, 0xc000096480)
+	/Users/Terry/gopher/go/src/runtime/panic.go:965 +0x1b9
+gosublime/something-borrowed/gocode.(*gc_bin_parser).parse_export(0xc0000e61c0, 0xc0004b2040)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package_bin.go:126 +0xba6
+gosublime/something-borrowed/gocode.(*package_file_cache).process_package_data(0xc000492a00, 0xc004ac2000, 0x66be02, 0x66be03)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:132 +0x4d2
+gosublime/something-borrowed/gocode.(*package_file_cache).update_cache(0xc000492a00)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:92 +0x205
+gosublime/something-borrowed/gocode.update_packages.func1(0xc0004aa4e0, 0xc000492a00)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:455 +0x57
+created by gosublime/something-borrowed/gocode.update_packages
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:448 +0xcb
+
+goroutine 231 [chan receive]:
+gosublime/something-borrowed/gocode.(*file_reader_type).read_file(...)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:243
+gosublime/something-borrowed/gocode.(*package_file_cache).update_cache(0xc00007d1d0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:88 +0x19f
+gosublime/something-borrowed/gocode.update_packages.func1(0xc00015a600, 0xc00007d1d0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:455 +0x57
+created by gosublime/something-borrowed/gocode.update_packages
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:448 +0xcb
+
+goroutine 97 [chan send, 429 minutes]:
+gosublime/something-borrowed/gocode.update_packages.func1.1(0xc0004aa4e0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:452 +0x6f
+panic(0x141df20, 0xc000206050)
+	/Users/Terry/gopher/go/src/runtime/panic.go:965 +0x1b9
+gosublime/something-borrowed/gocode.(*gc_bin_parser).parse_export(0xc0000e62a0, 0xc0004b2020)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package_bin.go:126 +0xba6
+gosublime/something-borrowed/gocode.(*package_file_cache).process_package_data(0xc00078c000, 0xc000268000, 0xb2b6, 0xb2b7)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:132 +0x4d2
+gosublime/something-borrowed/gocode.(*package_file_cache).update_cache(0xc00078c000)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:92 +0x205
+gosublime/something-borrowed/gocode.update_packages.func1(0xc0004aa4e0, 0xc00078c000)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:455 +0x57
+created by gosublime/something-borrowed/gocode.update_packages
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:448 +0xcb
+
+goroutine 98 [chan send, 429 minutes]:
+gosublime/something-borrowed/gocode.update_packages.func1.1(0xc0004aa4e0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:452 +0x6f
+panic(0x141df20, 0xc000096470)
+	/Users/Terry/gopher/go/src/runtime/panic.go:965 +0x1b9
+gosublime/something-borrowed/gocode.(*gc_bin_parser).parse_export(0xc0005c2000, 0xc00069c020)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package_bin.go:126 +0xba6
+gosublime/something-borrowed/gocode.(*package_file_cache).process_package_data(0xc00078c050, 0xc00098a000, 0xbafa0, 0xbafa1)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:132 +0x4d2
+gosublime/something-borrowed/gocode.(*package_file_cache).update_cache(0xc00078c050)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:92 +0x205
+gosublime/something-borrowed/gocode.update_packages.func1(0xc0004aa4e0, 0xc00078c050)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:455 +0x57
+created by gosublime/something-borrowed/gocode.update_packages
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:448 +0xcb
+
+goroutine 99 [chan send, 429 minutes]:
+gosublime/something-borrowed/gocode.update_packages.func1.1(0xc0004aa4e0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:452 +0x6f
+panic(0x141df20, 0xc000060060)
+	/Users/Terry/gopher/go/src/runtime/panic.go:965 +0x1b9
+gosublime/something-borrowed/gocode.(*gc_bin_parser).parse_export(0xc0006bc000, 0xc0005b4020)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package_bin.go:126 +0xba6
+gosublime/something-borrowed/gocode.(*package_file_cache).process_package_data(0xc00078c0a0, 0xc000a46000, 0x7a894, 0x7a895)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:132 +0x4d2
+gosublime/something-borrowed/gocode.(*package_file_cache).update_cache(0xc00078c0a0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:92 +0x205
+gosublime/something-borrowed/gocode.update_packages.func1(0xc0004aa4e0, 0xc00078c0a0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:455 +0x57
+created by gosublime/something-borrowed/gocode.update_packages
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:448 +0xcb
+
+goroutine 229 [chan send]:
+gosublime/something-borrowed/gocode.update_packages.func1.1(0xc00015a600)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:452 +0x6f
+panic(0x141df20, 0xc000612030)
+	/Users/Terry/gopher/go/src/runtime/panic.go:965 +0x1b9
+gosublime/something-borrowed/gocode.(*gc_bin_parser).parse_export(0xc00022a000, 0xc000236100)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package_bin.go:126 +0xba6
+gosublime/something-borrowed/gocode.(*package_file_cache).process_package_data(0xc0001008c0, 0xc0001dc000, 0x135ea, 0x135eb)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:132 +0x4d2
+gosublime/something-borrowed/gocode.(*package_file_cache).update_cache(0xc0001008c0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:92 +0x205
+gosublime/something-borrowed/gocode.update_packages.func1(0xc00015a600, 0xc0001008c0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:455 +0x57
+created by gosublime/something-borrowed/gocode.update_packages
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:448 +0xcb
+
+goroutine 232 [chan send]:
+gosublime/something-borrowed/gocode.update_packages.func1.1(0xc00015a600)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:452 +0x6f
+panic(0x141df20, 0xc000206070)
+	/Users/Terry/gopher/go/src/runtime/panic.go:965 +0x1b9
+gosublime/something-borrowed/gocode.(*gc_bin_parser).parse_export(0xc00010c000, 0xc00069c040)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package_bin.go:126 +0xba6
+gosublime/something-borrowed/gocode.(*package_file_cache).process_package_data(0xc0001007d0, 0xc000902000, 0x46588, 0x46589)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:132 +0x4d2
+gosublime/something-borrowed/gocode.(*package_file_cache).update_cache(0xc0001007d0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:92 +0x205
+gosublime/something-borrowed/gocode.update_packages.func1(0xc00015a600, 0xc0001007d0)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:455 +0x57
+created by gosublime/something-borrowed/gocode.update_packages
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:448 +0xcb
+
+goroutine 227 [chan send]:
+gosublime/something-borrowed/gocode.(*file_reader_type).read_file(...)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:242
+gosublime/something-borrowed/gocode.(*package_file_cache).update_cache(0xc00007d220)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/package.go:88 +0x165
+gosublime/something-borrowed/gocode.update_packages.func1(0xc00015a600, 0xc00007d220)
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:455 +0x57
+created by gosublime/something-borrowed/gocode.update_packages
+	/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:448 +0xcb
+
+
+
+** 2021-03-29 23:32:46.634256 **:
+GsComplete: broker: gocode_complete#mg9.autoken.433950cf-2ea9-472c-afcd-86b10236a8b9 PANIC
+--------------------------------
+
+** 2021-04-20 20:17:48.047292 **:
+9o: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gs9o.py", line 398, in run
+    os.chdir(wd)
+TypeError: can't specify None for path argument
+--------------------------------
+
+** 2021-04-20 20:17:48.627409 **:
+9o: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gs9o.py", line 398, in run
+    os.chdir(wd)
+TypeError: can't specify None for path argument
+--------------------------------
+
+** 2021-04-20 22:39:52.436375 **:
+9o: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gs9o.py", line 398, in run
+    os.chdir(wd)
+TypeError: can't specify None for path argument
+--------------------------------
+
+** 2021-04-20 22:39:52.768929 **:
+9o: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gs9o.py", line 398, in run
+    os.chdir(wd)
+TypeError: can't specify None for path argument
+--------------------------------
+
+** 2021-04-20 22:39:56.875183 **:
+9o: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gs9o.py", line 398, in run
+    os.chdir(wd)
+TypeError: can't specify None for path argument
+--------------------------------
+
+** 2021-04-20 22:39:57.978465 **:
+9o: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gs9o.py", line 398, in run
+    os.chdir(wd)
+TypeError: can't specify None for path argument
+--------------------------------
+
+** 2021-04-20 22:39:58.113202 **:
+9o: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gs9o.py", line 398, in run
+    os.chdir(wd)
+TypeError: can't specify None for path argument
+--------------------------------
+
+** 2021-04-20 22:39:58.757075 **:
+9o: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gs9o.py", line 398, in run
+    os.chdir(wd)
+TypeError: can't specify None for path argument
+--------------------------------
+
+** 2021-04-20 22:40:07.656963 **:
+9o: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gs9o.py", line 398, in run
+    os.chdir(wd)
+TypeError: can't specify None for path argument
+--------------------------------
+
+** 2021-04-20 22:41:02.907756 **:
+9o: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gs9o.py", line 398, in run
+    os.chdir(wd)
+TypeError: can't specify None for path argument
+--------------------------------
+
+** 2021-04-20 22:41:11.959363 **:
+9o: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gs9o.py", line 398, in run
+    os.chdir(wd)
+TypeError: can't specify None for path argument
+--------------------------------
+
+** 2021-04-20 22:42:28.665150 **:
+9o: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gs9o.py", line 398, in run
+    os.chdir(wd)
+TypeError: can't specify None for path argument
+--------------------------------
+
+** 2021-04-20 22:44:53.367225 **:
+9o: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gs9o.py", line 398, in run
+    os.chdir(wd)
+TypeError: can't specify None for path argument
+--------------------------------
+
+** 2021-04-20 22:44:53.514496 **:
+9o: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gs9o.py", line 398, in run
+    os.chdir(wd)
+TypeError: can't specify None for path argument
+--------------------------------
+
+** 2021-04-20 22:45:12.413904 **:
+9o: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gs9o.py", line 398, in run
+    os.chdir(wd)
+TypeError: can't specify None for path argument
+--------------------------------
+
+** 2021-04-20 23:03:41.236119 **:
+9o: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gs9o.py", line 398, in run
+    os.chdir(wd)
+TypeError: can't specify None for path argument
+--------------------------------
+
+** 2021-04-20 23:03:41.360168 **:
+9o: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gs9o.py", line 398, in run
+    os.chdir(wd)
+TypeError: can't specify None for path argument
+--------------------------------
+
+** 2021-04-20 23:03:49.008399 **:
+9o: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gs9o.py", line 398, in run
+    os.chdir(wd)
+TypeError: can't specify None for path argument
+--------------------------------
+
+** 2021-04-20 23:03:52.812155 **:
+9o: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gs9o.py", line 398, in run
+    os.chdir(wd)
+TypeError: can't specify None for path argument
+--------------------------------
+
+** 2021-04-20 23:03:52.950359 **:
+9o: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gs9o.py", line 398, in run
+    os.chdir(wd)
+TypeError: can't specify None for path argument
+--------------------------------
+
+** 2021-05-27 12:01:28.622943 **:
+agent#007: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 288, in _handle_recv
+    self._handle_recv_ipc(v)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 273, in _handle_recv_ipc
+    self._notify_ready()
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 270, in _notify_ready
+    self.mg.agent_ready(self)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 356, in agent_ready
+    self.on_activated(gs.active_view())
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 459, in on_activated
+    self.queue(view=view, actions=[actions.ViewActivated])
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 371, in queue
+    self.agent.queue(actions=actions, view=view, delay=delay)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 206, in queue
+    p = (act, view.id())
+AttributeError: 'NoneType' object has no attribute 'id'
+--------------------------------
+
+** 2021-06-20 02:12:07.414871 **:
+agent#007: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 288, in _handle_recv
+    self._handle_recv_ipc(v)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 273, in _handle_recv_ipc
+    self._notify_ready()
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 270, in _notify_ready
+    self.mg.agent_ready(self)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 356, in agent_ready
+    self.on_activated(gs.active_view())
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 459, in on_activated
+    self.queue(view=view, actions=[actions.ViewActivated])
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 371, in queue
+    self.agent.queue(actions=actions, view=view, delay=delay)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 206, in queue
+    p = (act, view.id())
+AttributeError: 'NoneType' object has no attribute 'id'
+--------------------------------
+
+** 2021-06-20 02:23:22.038016 **:
+agent#007: GoSublime: Traceback (most recent call last):
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 288, in _handle_recv
+    self._handle_recv_ipc(v)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 273, in _handle_recv_ipc
+    self._notify_ready()
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 270, in _notify_ready
+    self.mg.agent_ready(self)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 356, in agent_ready
+    self.on_activated(gs.active_view())
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 459, in on_activated
+    self.queue(view=view, actions=[actions.ViewActivated])
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 371, in queue
+    self.agent.queue(actions=actions, view=view, delay=delay)
+  File "/Users/Terry/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 206, in queue
+    p = (act, view.id())
+AttributeError: 'NoneType' object has no attribute 'id'
+--------------------------------

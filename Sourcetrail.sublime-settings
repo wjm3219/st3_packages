@@ -1,0 +1,6 @@
+{
+     "sourcetrail.startServerAtStartup": true,  // 设置为true在VS Code启动时启动TCP侦听器
+     "sourcetrail.ip": "127.0.0.1", // TCP服务器IP地址
+     "sourcetrail.pluginPort": 8666, // 端口VS代码监听
+     "sourcetrail.sourcetrailPort": 8667, // 端口Sourcetrail监听
+}

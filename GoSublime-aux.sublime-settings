@@ -61,16 +61,28 @@
 	],
 	"9o.hist.9o":
 	[
-		"go run toml.go",
 		"go run salt.go",
-		"go version",
 		"python3 calss.python3",
 		"python3 calss.py",
 		"python3 class.py",
 		"python3 halo.py",
-		"go run try.go"
+		"modify(\"xiao9\", \"3\")",
+		"GoSublime r18.11.06-1 9o: type `help` for help and command documentation\n\n[ `go run try.go` | done ]\n  # command-line-arguments\n  ./try.go:19:19: right(value) used as value\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done ]\n  2019/04/25 11:53:53 false\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done ]\n  2019/04/25 11:54:16 true\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done ]\n[ `go run try.go` | done ]\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done ]\n  2019/04/30 11:39:57 xiao7 1\n  2019/04/30 11:39:58 xiao8 2\n  2019/04/30 11:39:58 xiao9 3\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done ]\n  2019/04/30 11:40:31 xiao7 1\n  2019/04/30 11:40:31 xiao8 2\n  2019/04/30 11:40:32 xiao9 3\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done ]\n  2019/04/30 11:41:55 xiao8 2\n  2019/04/30 11:41:56 xiao7 1\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done ]\n  2019/04/30 11:48:51 xiao7 &{1}\n  2019/04/30 11:48:51 xiao8 &{xiao8}\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done ]\n  2019/04/30 11:49:26 xiao7 &{1}\n  2019/04/30 11:49:26 xiao8 &{xiao8}\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done ]\n  2019/04/30 11:49:40 xiao8 &{2}\n  2019/04/30 11:49:41 xiao7 &{1}\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done ]\n  2019/04/30 11:49:46 xiao8 &{2}\n  2019/04/30 11:49:46 xiao7 &{1}\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done ]\n  2019/04/30 11:49:50 xiao7 &{1}\n  2019/04/30 11:49:50 xiao8 &{xiao8}\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done ]\n  2019/04/30 11:49:55 xiao7 &{1}\n  2019/04/30 11:49:55 xiao8 &{xiao8}\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done ]\n  2019/04/30 11:50:47 xiao7 &{1}\n  2019/04/30 11:50:48 xiao8 &{2}\n[ `modify(\"xiao9\", \"3\")` | done ]\n  ``modify(\"xiao9\", 3)`` exited: exec: \"modify(\\\"xiao9\\\",\": executable file not found in $PATH\n[ `go run try.go` | done ]\n  2019/04/30 11:50:53 xiao7 &{1}\n  2019/04/30 11:50:53 xiao8 &{2}\n[ `go run try.go` | done ]\n  2019/04/30 11:50:55 xiao7 &{1}\n  2019/04/30 11:50:55 xiao8 &{2}\n[ `go run try.go` | done ]\n  2019/04/30 11:50:58 xiao7 &{1}\n  2019/04/30 11:50:58 xiao8 &{2}\n[ `go run try.go` | done ]\n  2019/04/30 11:51:01 xiao7 &{1}\n  2019/04/30 11:51:01 xiao8 &{2}\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done ]\n  2019/04/30 15:54:14 p1 &{1}\n  2019/04/30 15:54:14 p2 &{2}\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done ]\n  2019/04/30 15:54:25 p2 &{2}\n  2019/04/30 15:54:25 p1 &{1}\n[ ~/gopher/src/try/ ] # \n[ `go run try.go` | done ]\n  2019/04/30 16:06:39 p1 &{1}\n  2019/04/30 16:06:39 p2 &{2}\n[ ~/gopher/src/try/ ] #",
+		"GoSublime r18.11.06-1 9o: type `help` for help and command documentation",
+		"git --go version",
+		"git --version",
+		"echo $PATH",
+		"which gocode",
+		"date -r 1136214245",
+		"date -r 1561474800",
+		"date -r 1561446000",
+		"date -r 1561611600",
+		"go run toml.go",
+		"go version",
+		"go run try.go",
+		"go run main.go"
 	],
-	"ann": "a18.11.06-1",
-	"install_version": "r18.11.06-1",
-	"version": "r18.11.06-1"
+	"ann": "a20.06.14-1",
+	"install_version": "r20.06.14-1",
+	"version": "r20.06.14-1"
 }

@@ -1,0 +1,6 @@
+{
+	"version": 1,
+    "php_bin": "/usr/local/bin/php",
+    "format_on_save": false,
+    "psr2": true
+}

@@ -4,5 +4,11 @@
         "GOPATH": "/Users/Terry/gopher"
     },
     "ipc_timeout": 1,
-    "fmt_enabled": true
+    "gscomplete_enabled": true,
+    "fmt_enabled": true,
+    "fmt_cmd":[
+        "goimports"
+    ],
+    "use_named_imports": true,
+    "autocomplete_suggest_imports": true
 }
